@@ -100,13 +100,11 @@ header {
   background-color: white; }
 
 /* MENU HAMBURGUESA */
-header .bg-dark {
-  background-color: white !important; }
-
 .navbar-toggler {
   border-color: pink !important; }
 
 .menuHamburg .pos-f-t li {
+  color: #e7acb6;
   background-color: #f5e2e2; }
   .menuHamburg .pos-f-t li a {
     text-decoration: none;
@@ -613,7 +611,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: pink;
   word-wrap: break-word; }
   a > code {
     color: inherit; }
@@ -2059,13 +2057,11 @@ header {
   background-color: white; }
 
 /* MENU HAMBURGUESA */
-header .bg-dark {
-  background-color: white !important; }
-
 .navbar-toggler {
   border-color: pink !important; }
 
 .menuHamburg .pos-f-t li {
+  color: #e7acb6;
   background-color: #f5e2e2; }
   .menuHamburg .pos-f-t li a {
     text-decoration: none;
@@ -7800,13 +7796,11 @@ header {
   background-color: white; }
 
 /* MENU HAMBURGUESA */
-header .bg-dark {
-  background-color: white !important; }
-
 .navbar-toggler {
   border-color: pink !important; }
 
 .menuHamburg .pos-f-t li {
+  color: #e7acb6;
   background-color: #f5e2e2; }
   .menuHamburg .pos-f-t li a {
     text-decoration: none;
@@ -8490,13 +8484,11 @@ header {
   background-color: white; }
 
 /* MENU HAMBURGUESA */
-header .bg-dark {
-  background-color: white !important; }
-
 .navbar-toggler {
   border-color: pink !important; }
 
 .menuHamburg .pos-f-t li {
+  color: #e7acb6;
   background-color: #f5e2e2; }
   .menuHamburg .pos-f-t li a {
     text-decoration: none;
@@ -8793,13 +8785,11 @@ header {
   background-color: white; }
 
 /* MENU HAMBURGUESA */
-header .bg-dark {
-  background-color: white !important; }
-
 .navbar-toggler {
   border-color: pink !important; }
 
 .menuHamburg .pos-f-t li {
+  color: #e7acb6;
   background-color: #f5e2e2; }
   .menuHamburg .pos-f-t li a {
     text-decoration: none;
@@ -9575,7 +9565,7 @@ article div p {
     display: flex;
     padding: 10px 5px; }
   .logo-main {
-    height: 30px;
+    height: 50px;
     margin: 0px;
     padding: 0px;
     padding-left: 10px; }
@@ -9638,12 +9628,12 @@ article div p {
       transition: all 1s; }
   .dropdown-menu {
     transition: all 0.5s; }
-  .containerfluid__legals-boxmodel {
-    margin: 0px; }
+  .container-fluid__legals--boxmodel {
+    margin: 5px 0px; }
   .legals__p--font {
-    font-size: 10px; }
+    font-size: 12px; }
   .legals__p--boxmodel {
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 5px; }
   /* ABOUT US */
   .backgroundAboutUs {
