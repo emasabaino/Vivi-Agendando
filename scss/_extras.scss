@@ -1,0 +1,84 @@
+@import '_tamanios.scss';
+
+/* HEADER */
+
+/* MENU HAMBURGUESA */
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../assets/images/menu-icon.png);
+}
+
+.menuHamburg .pos-f-t li {
+    border-radius: 10px;
+}
+
+/* MENU DESKTOP */
+
+.navMedia li:hover{
+    transform:scale(1.2);
+    transition: 1s; 
+}
+
+
+header nav ul li{
+    border-radius: 10px;
+    &:hover {
+        transition: all 1s;
+        transform: scale(1.2);
+    }
+}
+
+/* WELCOME INDEX */
+
+  .artWelcomeIndex__divBackImg--overflow {
+    overflow: hidden;
+  }
+  
+  .divBackImg__img--opacity{
+    opacity: 0.4;
+  }
+  
+  /* FORM INDEX */
+
+
+.formIndex__img--scalex {
+    transform: scaleX(-1);
+}
+
+.inputIndex {
+    border-style: solid;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.submit {
+    border: 2px solid rgb(236, 209, 209);
+    border-radius: 10px;
+    &:hover {
+        transition: 1s;
+    }
+}
+
+/* footer */
+
+
+.footerNav ul li:hover{
+    transition: 0.5s;
+}
+
+/* ABOUT US */  
+
+.backgroundAboutUs {
+    opacity: 0.5;
+}
+
+
+
+
+

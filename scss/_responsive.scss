@@ -1,0 +1,539 @@
+@import '_tamanios.scss';
+
+/* MEDIA QUERY TABLET */
+
+
+@media only screen and (min-width: $mindesk) {
+
+    .menuHamburg {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .menuHamburg {
+        display: flex;
+        margin-left: 30px;
+    }
+ 
+    .menuPropio {
+        display: none;
+    }
+
+    .logo-main {
+        padding-left: 10px;
+    }
+
+    .navMedia {
+        margin-right: 30px;
+    }
+
+    .divText__h2--margin {
+        margin-left: 10px;
+    }
+
+    .divText__p--margin {
+        margin-left: 0px;
+    }
+
+    .formIndex__img--boxmodel {
+        position: relative;
+        left: 20px;
+    }
+
+    .formIndex .submit {
+        left: 0px;
+    }
+
+    footer .dropdown {
+        display: none;
+    }
+
+    .footerNav {
+        h1 {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .contactos {
+            padding: 0px;
+        }
+
+        ul {
+            margin: 0px;
+            padding-bottom: 20px;
+            li {
+                padding: 0px;
+            }
+        }
+
+    } 
+
+/* ABOUT US */
+
+    .backgroundAboutUs {
+        display: none;
+    }
+
+    .containerAboutUsText {
+        position: relative;
+        bottom: 0px;
+        padding: 50px 0px 50px 30px;
+        background-color:rgb(255, 213, 222);
+        p {
+            width: 90%;
+        }
+        h6 {
+            padding-top: 30px;
+        }
+    }
+
+/* CONTACTO */
+
+#contact form label {
+    margin-left: 0px;
+}
+
+
+.artRedes__redesGroup--boxmodel {
+    padding-top: 25px;
+}
+
+.contactanosDiv h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contactanosDiv p {
+    font-size: 18px;
+    width: 100%;
+}
+
+#contact form {
+    margin-left: 15px;
+}
+
+#contact form label {
+    margin: 10px 0px;
+}
+
+#contact form fieldset div {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="radio"] {
+    margin: 10px;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+}
+
+.cierreContact__h1--font {
+    font-size: 30px;
+}
+
+.cierreContact__p--boxmodel {
+    padding-top: 15px;
+}
+
+.cierreContact__p--font {
+    font-size: 25px;
+}
+
+
+
+/* MODELOS */
+
+.imgModelos {
+    padding-bottom: 15px;
+}
+
+.containerImgModelos div img {
+    padding-bottom: 15px;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+
+.containerModelos .row {
+    padding: 10px 20px;
+}
+
+.containerModelos h1 {
+    text-align: center;
+}
+
+.containerModelos h2 {
+    text-align: center;
+}
+
+.containerModelos h3 {
+    text-align: center;
+}
+
+.imgEncuadernados {
+    height: unset;
+}
+
+}
+
+/* MEDIA QUERY MOBILE */
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    header {
+        padding-top: 10px;
+        nav ul {
+            display: none;
+        }
+    }
+
+    .menuPropio {
+        display: none;
+    }
+
+
+    .menuHamburg {
+        display: flex;
+        padding: 10px 5px;
+    }
+
+    .logo-main {
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 10px;
+    }
+
+    .navMedia {
+        padding-right: 10px;
+        img {
+            height: 20px;
+        }
+    }
+
+    /* WELCOME SECTION */
+
+    .welcomeContainer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .divText__h1--boxmod{
+        margin-top: 20px;
+        margin-left: -20px;
+        padding: 0px;
+    }
+
+    .divText__h2--margin {
+        margin-left: -25px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .divText__h2--font {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .divText__p--margin {
+        margin-left: -30px;
+        margin-right: 0px;
+        font-size: 18px;
+    }
+
+    .divText__p--font {
+        font-size: 18px;
+    }
+
+    .divBackImg__img--boxmod {
+        height: 500px;
+    }
+
+    /*CONTACT*/
+
+    
+    .formIndex {
+        padding-left: 0px;
+
+        .formIndex__img--boxmodel {
+            display: none;
+        }    
+    }
+
+
+    .inputIndex {
+        max-width: 300px;
+    }
+
+    .formIndex .submit {
+        left: 0px;
+    }
+
+    /* FOOTER */
+
+    .footer__h3--font {
+        font-size: 25px;
+    }
+
+
+    .footer__h3--boxmodel {
+        padding: 10px;
+    }
+
+    .footerNav {
+        h1 {
+        font-size: 15px;
+        }
+        img {
+            max-height: 20px;
+        }
+    }
+
+    #menu-desktop {
+        display: none;
+    }
+
+    footer {
+        .dropdown {
+        display:unset;
+        button {
+            background-color:rgb(245, 225, 228);
+            font-family: 'Roboto', sans-serif;
+            color:rgb(231, 116, 183);
+            font-weight: bold;
+            width: 100%;
+            border: none;
+            transition: all 1s;
+            }
+        }
+
+    }
+
+    .dropdown-menu {
+        transition: all 0.5s;
+    }
+
+    .containerfluid__legals-boxmodel {
+        margin: 0px;
+    }
+
+    .legals__p--font {
+        font-size: 10px;
+    }
+
+    .legals__p--boxmodel {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+/* ABOUT US */
+
+.backgroundAboutUs {
+    display: none;
+}
+
+.containerAboutUsText {
+    position: relative;
+    background-color:rgb(255, 213, 222);
+    bottom: 0px;
+    padding: 30px 0px 30px 30px;
+    margin-left: 0px;
+    h2 {
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+    p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 10px;
+    width: 80%;
+    }
+    h6 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+
+
+/* HOW WE WORK */
+
+.howWeWork {
+    div {
+    grid-template-columns: 150px auto;
+    justify-self: center;
+    img {
+        height: 40px;
+    }
+    }
+    article {
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 15px;
+            width: 90%;
+        }
+    }
+}
+
+/* MODELOS */
+
+.containerNav {
+    display: none;
+}
+
+.containerModelos .row {
+    padding: 10px 20px;
+}
+
+.containerModelos h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.containerModelos h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.containerModelos p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.flexList {
+    padding-left: 0px;
+}
+
+.listText {
+    font-size: 12px;
+}
+
+.containerImgModelos div img {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.imgModelos {
+    margin: auto;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+/* ENCUADERNADOS */
+
+.containerModelos h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+
+
+.imgEncuadernados {
+    height: unset;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+iframe {
+    display: none;
+}
+
+
+/* CONTACTO */
+
+.artRedes__h1--font {
+    font-size: 30px;
+}
+
+
+.divRedes__img--size {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.artRedes__redesGroup--boxmodel {
+    padding-top: 25px;
+}
+
+.qrCode {
+    display: none;
+}
+
+.contactanosDiv h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contactanosDiv p {
+    font-size: 18px;
+    width: 100%;
+}
+
+legend {
+    font-size: 17px;
+    padding: 0px;
+}
+
+#contact form {
+    margin-left: 15px;
+}
+
+#contact form label {
+    margin: 10px 0px;
+}
+
+.inputIndex {
+    margin-left: 0px;
+}
+
+#contact form fieldset div {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="radio"] {
+    margin: 10px;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+}
+
+#contact .submit {
+    height: 50px;
+    width: 80px;
+    font-size: 10px;
+}
+
+.cierreContact__h1--font {
+    font-size: 20px;
+}
+
+.cierreContact__p--boxmodel {
+    padding-top: 15px;
+}
+
+.cierreContact__p--font {
+    font-size: 18px;
+}
+
+
+}

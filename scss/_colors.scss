@@ -1,0 +1,200 @@
+@import 'tamanios.scss';
+
+/*VAR COLORS */
+
+$gris: rgb(65, 60, 60);
+$rosaviejo1: rgb(212, 147, 158);
+$rosaviejo2: rgb(231, 172, 182);
+$backrosaclaro: rgb(245, 226, 226);
+$rosalogo: rgb(248, 128, 198);
+$violetatitulos: rgb(177, 72, 140);
+$violetaoscuro: rgb(139, 77, 129);
+
+$colores-propios: (
+    rosaviejo1: $rosaviejo1,
+    rosaviejo2: $rosaviejo2,
+    rosaclaro: $backrosaclaro
+);
+
+a {
+    color: unset;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+}
+
+/* MENU HAMBURGUESA */
+
+header {
+    .bg-dark {
+    background-color: white !important;
+    }
+}
+
+.navbar-toggler {
+    border-color: pink !important;
+}
+
+.menuHamburg {
+    .pos-f-t li {
+    background-color:$backrosaclaro;
+    a {
+        text-decoration: none;
+        color: $rosaviejo2;
+    }
+    }
+}
+
+/* MENU DESKTOP */
+
+
+header nav ul li{
+    background-color:$backrosaclaro;
+    color: $rosaviejo2;
+}
+
+header nav ul li a:hover {
+    color: $rosalogo;
+    transition: 1s;
+}
+
+.div-pink {
+    background-color: pink;
+}
+
+/* WELCOME INDEX */
+  
+  .divText__h1--font{
+    color: $rosaviejo1;
+  }
+  
+  .divText__h2--font{
+    color: $rosalogo;
+  }
+  
+  .divText__p--font{
+    color:$violetatitulos;
+  }
+
+  /* FORM INDEX */
+
+.formIndex {
+    background-color:$backrosaclaro;
+    .formIndex__p--font {
+        color: $rosalogo;
+    }
+    label {
+        color: $rosaviejo1;
+    }
+}
+
+
+form label {
+    color: $rosaviejo1;
+}
+
+.inputIndex {
+    color:$gris;
+    border-color:$rosaviejo1;
+}
+
+.submit {
+    background-color: $rosaviejo2;
+    color: white;   
+    &:hover {
+        background-color: pink;
+    }
+}
+
+
+/* footer */
+
+footer {
+    .footer__h3--colors {
+    color: white;
+    background-color: $rosaviejo2;
+    }
+}
+
+
+.footerNav {
+    h1 {
+    color: $rosaviejo1;
+    }
+    .contactos {
+        color: $rosaviejo1;
+    }
+    ul li{
+        color: $gris;
+        a{
+            text-decoration: none;
+            &:hover {
+            color: $rosaviejo1;
+            transition: all 1s;
+            }
+        }
+    }
+}
+
+.legals__p--font {
+    color: $gris;
+}
+
+/* ABOUT US */  
+
+/* WELCOME ABOUT US */
+
+
+.aboutUs {
+    background-color:$backrosaclaro;
+}
+
+
+.containerAboutUsText {
+
+    h2 {
+        color: $violetaoscuro;
+    }
+
+    p {
+        color:$gris;
+        span {
+            color:$violetatitulos;
+        }
+    }
+
+    .descriptionAboutUs2 {
+        color:$violetatitulos;
+    }
+
+    h6 {
+        color: $violetatitulos;
+    }
+
+}
+
+article div {
+
+    h3 {
+        color:$rosaviejo1;
+    }
+
+    p {
+        color:$gris;
+    }
+}
+
+
+
+/* HOW WE WORK */
+
+.howWeWork article h2 {
+    color:$rosalogo;
+    background-color:$backrosaclaro;
+}
+
+
+

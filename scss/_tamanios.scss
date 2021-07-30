@@ -1,0 +1,154 @@
+/* VAR RESPONSIVE */
+
+$mindesk: 1200px;
+$mintab: 768px;
+$minmob: 0px;
+$maxtab: 1199px;
+$maxmob: 767px;
+
+$p-desk: 20px;
+$li-desk: 18px;
+
+$size-p: 20px;
+
+/* MENU HAMBURGUESA */ 
+
+.menuHamburg .pos-f-t li {
+    font-size: 13px;
+}
+
+
+/* MENU DESKTOP */
+
+.logo-main {
+    height: 60px;
+}
+
+.social-icon {
+    height: 40px;
+}
+
+.div-pink {
+    height: 5px;
+}
+
+header nav ul li{
+    font-size: $li-desk;
+}
+
+/* WELCOME INDEX */
+
+  
+  .artWelcomeIndex__divBackImg--height {
+      max-height: 445px;
+  }
+
+  .divText__h1--font{
+    font-size: 45px;
+  }
+  
+  .divText__p--font{
+    font-size: $p-desk;
+  }
+  
+
+/* FORM INDEX */
+
+.formIndex__p--font {
+    font-size: $p-desk;
+}
+
+
+form label {
+    font-size: $p-desk;
+}
+
+.inputIndex {
+    height: 35px;
+    width: 350px;
+}
+
+.submit {
+    height: 50px;
+    width: 100px;
+}
+
+/* footer */
+
+
+.footer__h3--font {
+    font-size: 30px;
+}
+
+
+.footerNav {
+    h1 {
+    font-size: 22px;
+    }
+    ul li {
+        font-size: $size-p;
+    }
+}
+
+.legals__p--font  {
+    font-size: $size-p;
+}
+
+.legals__img--size {
+    height: 25px;
+}
+
+/* ABOUT US */  
+
+/* WELCOME ABOUT US */
+
+
+.backgroundAboutUs {
+    width: (25% + 25%) * 2;
+}
+
+
+.containerAboutUsText {
+
+    h2 {
+        font-size: $size-p * 2;
+    }
+
+    p {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    h6 {
+        font-size: 30px;
+    }
+}
+
+
+article div {
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+
+/* HOW WE WORK */
+
+
+.howWeWork {
+
+    article h2 {
+        font-size: $size-p + 20;
+    }
+    
+    div img {
+        height: 60px;
+    }
+}
+
+
+

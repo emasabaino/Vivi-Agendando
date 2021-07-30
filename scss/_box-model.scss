@@ -1,0 +1,252 @@
+@import '_tamanios.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+
+header {   
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    padding-top: 30px;
+}
+
+
+
+/* MENU HAMBURGUESA */
+
+.menuHamburg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    .pos-f-t li {
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+header .navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* MENU DESKTOP */
+
+.stickyNav {
+    align-items: center;
+}
+
+.navMedia {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-main {
+    margin: {
+    left: 40%;
+    bottom: 15px;
+    top: -5px;
+    }
+}
+
+.social-icon {
+    padding-left: 5px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    li {
+        padding: 10px;
+        margin: 0px 10px;
+    }
+}
+
+.div-pink {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* WELCOME INDEX */
+
+
+.welcomeContainer__artWelcomeIndex--flex {
+    display: flex;
+    flex-direction: column
+  }
+  
+  .divBackImg__img--boxmod {
+    position: relative;
+  }
+  
+  .artWelcomeIndex__divText--boxmod{
+    margin-left: 50px;
+    position: absolute;
+  }
+  
+  .divText__h1--boxmod {
+    margin-top: 50px;
+      padding-bottom: 50px;
+  }
+  
+  .divText__h2--margin{
+    margin-left: 40px;
+  }
+  
+  .divText__p--margin{
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  
+  /* FORM INDEX */
+
+.formIndex {
+
+    padding-left: 50px;
+
+    .formIndex__p--boxmodel {
+        padding: {
+            top: 20px;
+            bottom: 20px;
+        }
+    }
+    .formIndex__img--boxmodel {
+        top: -70px;
+        align-self: center;
+        margin-left: 50px;
+    }
+}
+
+form label {
+    margin-left: 30px;
+}
+
+.inputIndex {
+    padding-left: 4px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.formIndex .submit {
+    left: 200px;
+}
+
+.submit {
+    display: block;
+    position: relative;
+    margin:30px;
+}
+
+
+/* footer */
+
+footer {
+    
+    .footer__h3--boxmodel {
+        padding: 20px;
+        margin: 0px;
+    }
+    .dropdown {
+        display: none;
+    }
+}
+
+.footerNav {
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+
+.flexFooterSocial {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-fluid__legals--boxmodel {
+    margin: 10px 15px;
+    .legals__p--boxmodel  {
+        padding-left: 10px;
+    }
+}
+
+
+/* ABOUT US */  
+
+/* WELCOME ABOUT US */
+
+.backgroundAboutUs {
+    position: relative;
+    overflow: hidden;
+}
+
+.containerAboutUsText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -220px;
+    padding-left: 50px;
+    margin-right: 0px;
+
+    h2 {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        margin: 0px 25px;
+        padding: 15px;
+    }
+}
+
+
+/* HOW WE WORK */
+
+.howWeWork {
+
+    article h2 {
+        padding: 50px;
+        margin-top: -5px;
+    }
+
+    div {
+        display: grid;
+        grid-template-areas: 
+        "titulo-how imagen-how"
+        "descripcion-how descripcion-how";
+        grid-template-columns: 200px auto;
+        grid-template-rows: 120px 80px;
+        margin: 0px 0px 50px 50px;
+        position: relative;
+        align-items: center;
+
+        h3 {
+            grid-area: titulo-how;
+        }
+
+        img {
+            grid-area: imagen-how;
+            justify-self: start;
+        }
+
+        p {
+            grid-area: descripcion-how;
+        }
+    }
+
+
+}
+
+
+
+

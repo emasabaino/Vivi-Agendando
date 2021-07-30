@@ -1,0 +1,175 @@
+@import '_tamanios.scss';
+@import '_colors.scss';
+
+$roboto: 'Roboto', sans-serif;
+$source: 'Source Sans Pro', sans-serif;
+$playball: 'Playball', sans-serif;
+
+
+a ul{ 
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+
+/* MENU HAMBURGUESA */
+
+.menuHamburg {
+    .pos-f-t li {
+        list-style: none;
+        text-align: center;
+        font: {
+            family: $source;
+            weight: bold;
+        }
+    }
+}
+
+/* MENU DESKTOP */
+
+
+header nav ul li{
+    list-style: none;
+    font: {
+        family: $roboto;
+        weight: bold;
+    }
+    text-align: center;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+.navMedia {
+    list-style: none;
+}
+
+
+/* WELCOME INDEX */
+
+  .divText__h1--font{
+    font: {
+        family: $playball;
+    }
+  }
+  
+  .divText__h2--font{
+    font-family: $source;
+  }
+  
+  
+  .divText__p--font{
+    font: {
+        family: $source;
+        weight: bold;
+    }
+  }
+  
+  /* FORM INDEX */
+
+.formIndex__p--font {
+    font: {
+        family: $source;
+        weight: bold;
+    }
+}
+
+
+form label {
+    font-family: $source;
+}
+
+.inputIndex {
+    font-family: $roboto;
+}
+
+.submit {
+    font: {
+        family: $roboto;
+        weight: bold;
+    }
+}
+
+/* footer */
+
+.footer__h3--font {
+    font-family: $source;
+    text-align: center;
+}
+
+
+.footerNav {
+    h1 {
+    font-family: $roboto;
+    }
+    ul li {
+        font-family: $source;
+        list-style: none;
+    }
+    .contactos {
+        font-weight: bold;
+    }
+}
+
+.legals__p--font  {
+    font-family: $source;
+}
+
+/* ABOUT US */  
+
+/* WELCOME ABOUT US */
+
+
+.containerAboutUsText {
+
+    h2 {
+        font-family: $source;
+    }
+
+    p {
+        font-family: $source;
+        font-weight: bold;
+    }
+
+    .descriptionAboutUs2 {
+        font-weight: bold;
+    }
+
+    h6 {
+        font-family: $playball;
+        text-align: center;
+    }
+
+}
+
+article div {
+
+    h3 {
+        font-family: $roboto;
+    }
+
+    p {
+        font-family: $source;
+    }
+}
+
+
+/* HOW WE WORK */
+
+.howWeWork article h2 {
+    text-align: center;
+    font-family: $roboto;
+    text-transform: uppercase;
+}
+
+
+
+
