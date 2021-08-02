@@ -150,5 +150,144 @@ article div {
     }
 }
 
+/* MODELOS */
+
+
+/* CAROUSEL */
+
+.carrouselCustom img {
+    max-height: 300px;
+    max-width: 550px;
+}
+
+
+/* NAV MODELOS */
+
+.containerNav {
+    nav {
+        font-size: 15px;
+    }
+    img {
+        width: 150px;
+    }
+}
+
+
+/* MAIN MODELOS */
+
+
+.containerModelos {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+
+.listText {
+    font-size: 18px;
+}
+
+.imgModelos {
+    max-height: 200px;
+}
+
+/*ENCUADERNADOS*/
+
+.imgEncuadernados {
+    height: 300px;
+}
+
+.purple-div {
+    height: 5px;
+    width: 200px;
+}
+
+/* CONTACTO */
+
+/* SECCION REDES */
+
+.artRedes__h1--font {
+    font-size: 35px;
+}
+
+
+.divRedes__img--size {
+    height: 100px;
+}
+
+.qrCode {
+    height: 100px;
+}
+
+
+/* MAIN SECTION CONTACTO  */
+
+
+.contactanosDiv {
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 22px;
+        width: 80%;
+    }
+}
+
+
+/* FORM CONTACT */
+
+.textArea {
+    height: 200px;
+}
+
+.textArea::placeholder {
+    width: 60%;
+}
+
+.cierreContact {
+    height: 200px;
+    .cierreContact__h1--font {
+        font-size: 40px;
+    }
+    .cierreContact__p--font {
+        font-size: 25px;
+    }
+}
+
+
+/* 404 */
+
+.container404 {
+    width: 100%;
+    height: 100%;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+        width: 60%;
+    }
+
+    p {
+        font-size: 25px;
+        width: 60%;
+    }
+
+    .button404 {
+        font-size: 25px;
+    }
+
+}
 
 

@@ -79,6 +79,94 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
+/* MODELOS */
+
+/* ACCORDION */
+
+#accordion {
+    .card {
+        border-radius: 10px;
+    }
+    .card-header {
+        border-radius: 10px;
+    }
+}
 
 
+/* NAV MODELOS */
+
+.navModelos li {
+    border-radius: 10px;
+    &:hover {
+        transition: all 1s;
+        transform: scale(1.1);
+    }
+    a:hover {
+        transition: 1s;
+    }
+}
+
+.containerNav img {
+    transform: scaleX(-1);
+}
+
+/* MAIN MODELOS */
+
+.imgModelos:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.containerImgModelos div img:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/*ENCUADERNADOS*/
+
+.imgEncuadernados:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+/* CONTACTO */
+
+/* SECCION REDES */
+
+.qrCode:hover {
+    transform: scale(3) translateY(-30px);
+    transition: 1s;
+}
+
+/* MAIN SECTION CONTACTO  */
+
+/* FORM CONTACT */
+
+
+fieldset { 
+    border-style: solid 3px;
+    border-radius: 15px;
+}
+
+.textArea {
+    border-radius: 10px;
+}
+
+
+
+/* 404 */
+
+.container404 {
+    .button404 {
+        &:hover {
+            transition: 1s;
+        }
+    }
+
+    .animate__animated.animate__bounce {
+        animation-iteration-count: infinite;
+    }
+
+}
 

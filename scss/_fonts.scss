@@ -172,4 +172,105 @@ article div {
 
 
 
+/* MODELOS */
+
+
+/* ACCORDION */
+
+
+#accordion .btn-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* NAV MODELOS */
+
+.containerNav nav {
+    text-align: center;
+    list-style: none;
+    font-family: $roboto;
+    font-weight: bold;
+    li a {
+        text-decoration: none;
+    }
+}
+
+
+/* MAIN MODELOS */
+
+.containerModelos {
+    h1 {
+        font-family: $playball;
+    }
+    h2 {
+        font-family: $source;
+    }
+    h3 {
+        font-family: $source;
+    }
+    p {
+        font-family: $source;
+    }
+}
+
+.listText {
+    font-family: $roboto;
+}
+
+
+/* CONTACTO */
+
+/* SECCION REDES */
+
+.artRedes__h1--font {
+    font-family: $roboto;
+    text-align: center;
+}
+
+/* MAIN SECTION CONTACTO  */
+
+
+.contactanosDiv {
+    h1 {
+    font-family: $source;
+    text-align: center;
+    }
+    p {
+        font-family: $source;
+    }
+}
+
+/* FORM CONTACT */
+
+.cierreContact__h1--font {
+    font-family: $roboto;
+    text-align: center;
+}
+
+.cierreContact__p--font {
+    font-family: $source;
+    text-align: center;
+}
+
+
+
+/* 404 */
+
+.container404 {
+
+    h1 {
+        text-align: left;
+    }
+
+    p {
+        font-family: $source;
+    }
+
+    .button404 {
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+}
 

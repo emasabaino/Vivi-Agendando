@@ -190,3 +190,154 @@ article div {
 
 
 
+/* MODELOS */
+
+
+/* CAROUSEL */
+
+.carrouselCustom {
+    background-color:$backrosaclaro;
+    img {
+        border: solid 3px white;
+    }
+}
+
+
+/* ACCORDION */
+
+#accordion {
+    .card {
+        background-color:white;
+    }
+    .btn-link {
+        color: $violetatitulos
+    }
+    .card-header {
+        border: solid 1px $backrosaclaro;
+        background-color: white;
+    }
+}
+
+
+/* NAV MODELOS */
+
+.containerNav nav {
+    color: $rosaviejo2;
+    li {
+        background-color: $backrosaclaro;
+        a:hover {
+            color: $rosalogo;
+        }
+    }
+}
+
+
+/* MAIN MODELOS */
+
+.containerModelos {
+    background-color:$backrosaclaro;
+    h1 {
+        color: $rosaviejo1;
+    }
+    h2 {
+        color: $rosalogo;
+    }
+    h3 {
+        color: $violetatitulos;
+    }
+    p {
+        color: $gris;
+    }
+}
+
+
+.listText {
+    color:$gris;
+}
+
+.flexList p {
+    color:$rosalogo;
+}
+
+/*ENCUADERNADOS*/
+
+.purple-div {
+    background-color:$violetatitulos;
+}
+
+/* CONTACTO */
+
+/* SECCION REDES */
+
+.secRedes--background {
+    background-color: white;
+}
+
+.artRedes__h1--font {
+    color:$rosalogo;
+}
+
+/* MAIN SECTION CONTACTO  */
+
+.contactanosDiv {
+    h1 {
+        background-color: $rosaviejo2;
+        color: white;
+    }
+    p {
+        color: $gris;
+    }
+}
+
+/* FORM CONTACT */
+
+#contact form legend {
+    color:$rosalogo;
+}
+
+fieldset {
+    border-color: $rosaviejo2;
+
+}
+
+.textArea {
+    color:$rosaviejo2;
+    border: solid 2px $rosaviejo2;
+}
+
+.cierreContact {
+    background-color:$backrosaclaro;
+    .cierreContact__h1--font {
+        color:$violetatitulos;
+    }
+    .cierreContact__p--font {
+        color:$gris;
+    }
+}
+
+
+/* 404 */
+
+.container404 {
+    background-color: $backrosaclaro;
+    h1 {
+        color:$rosalogo;
+    }
+
+    h2 {
+        color:$rosalogo;
+    }
+
+    p {
+        color:$gris;
+    }
+
+    .button404 {
+        color:$rosaviejo2;
+        &:hover {
+            color:$rosalogo;
+        }
+    }
+
+}
+

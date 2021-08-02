@@ -248,5 +248,209 @@ footer {
 }
 
 
+/* MODELOS */
 
+
+/* CAROUSEL */
+
+.carrouselCustom img {
+   padding: 3px;
+}
+
+/* ACCORDION */
+
+#accordion {
+    padding-bottom: 30px;
+    article {
+        padding-top: 10px;
+    }
+}
+
+
+/* NAV MODELOS */
+
+.containerNav {
+    display: flex;
+    flex-direction: column;
+    nav {
+        margin-top: 5px;
+        li {
+            position: relative;
+            display: inline-block;
+            padding: 20px;
+            margin: 10px 10px;
+        }
+    }
+    img {
+        display: block;
+        position: relative;
+        top: -30px;
+        margin: auto;
+        margin-bottom: -30px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* MAIN MODELOS */
+
+.containerModelos {
+    .row {
+        padding: 20px 40px;
+        align-items: center;
+    }
+    h3 {
+        margin-top: 30px;
+    }
+    p {
+        padding-top: 15px;
+    }
+}
+
+
+.flexList {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.listText {
+    padding-left: 15px;
+}
+
+.imgModelos {
+    padding-left: 60px;
+}
+
+.imgModelos:hover {
+    z-index: 15;
+}
+
+.containerImgModelos div img {
+    padding-left: 60px;
+}
+
+.containerImgModelos div img:hover {
+    z-index: 15;
+}
+
+
+/*ENCUADERNADOS*/
+
+.imgEncuadernados {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.container-fluid iframe {
+    padding-top: 50px;
+}
+
+
+.purple-div {
+    position: relative;
+    margin-top: 50px;
+    margin: auto;
+}
+
+
+/* CONTACTO */
+
+/* SECCION REDES */
+
+.secRedes--boxmodel {
+    margin: 50px 0px 50px 0px;
+}
+
+.artRedes__redesGroup--boxmodel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.qrCode {
+    padding: 30px 15px 0px 15px;
+}
+
+
+/* MAIN SECTION CONTACTO  */
+
+
+.contactanosDiv {
+    h1 {
+        padding: 40px;
+        margin-bottom: 0px;
+    }
+    p {
+        margin-top: 40px;
+        margin-bottom: -15px;
+        padding-left: 30px;
+    }
+}
+
+
+/* FORM CONTACT */
+
+#contact form {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    fieldset div {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+input[type="radio"] {
+    margin: 15px 20px 20px 30px;
+  }
+
+  input[type="checkbox"] {
+    margin: 10px 15px 10px 30px;
+  }
+
+legend {
+    padding: 15px;
+}
+
+.textArea {
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textArea::placeholder {
+    padding: 5px;
+}
+
+.cierreContact__h1--boxmodel {
+    padding-top: 25px;
+}
+
+.cierreContact__p--boxmodel {
+    padding-top: 30px;
+}
+
+
+/* 404 */
+
+.container404 {
+
+    h1 {
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+
+    h2 {
+        padding-bottom: 50px;
+    }
+
+    .button404 {
+        padding-top: 20px;
+    }
+
+}
 
