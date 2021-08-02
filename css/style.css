@@ -10287,6 +10287,388 @@ article div p {
   .container404 .button404 {
     font-size: 25px; }
 
+/* VAR RESPONSIVE */
+/* MENU HAMBURGUESA */
+.menuHamburg .pos-f-t li {
+  font-size: 13px; }
+
+/* MENU DESKTOP */
+.logo-main {
+  height: 60px; }
+
+.social-icon {
+  height: 40px; }
+
+.div-pink {
+  height: 5px; }
+
+header nav ul li {
+  font-size: 18px; }
+
+/* WELCOME INDEX */
+.artWelcomeIndex__divBackImg--height {
+  max-height: 445px; }
+
+.divText__h1--font {
+  font-size: 45px; }
+
+.divText__p--font {
+  font-size: 20px; }
+
+/* FORM INDEX */
+.formIndex__p--font {
+  font-size: 20px; }
+
+form label {
+  font-size: 20px; }
+
+.inputIndex {
+  height: 35px;
+  width: 350px; }
+
+.submit {
+  height: 50px;
+  width: 100px; }
+
+/* footer */
+.footer__h3--font {
+  font-size: 30px; }
+
+.footerNav h1 {
+  font-size: 22px; }
+
+.footerNav ul li {
+  font-size: 20px; }
+
+.legals__p--font {
+  font-size: 20px; }
+
+.legals__img--size {
+  height: 25px; }
+
+/* ABOUT US */
+/* WELCOME ABOUT US */
+.backgroundAboutUs {
+  width: 100%; }
+
+.containerAboutUsText h2 {
+  font-size: 40px; }
+
+.containerAboutUsText p {
+  font-size: 18px;
+  width: 60%; }
+
+.containerAboutUsText h6 {
+  font-size: 30px; }
+
+article div h3 {
+  font-size: 25px; }
+
+article div p {
+  font-size: 18px; }
+
+/* HOW WE WORK */
+.howWeWork article h2 {
+  font-size: 40px; }
+
+.howWeWork div img {
+  height: 60px; }
+
+/* MODELOS */
+/* CAROUSEL */
+.carrouselCustom img {
+  max-height: 300px;
+  max-width: 550px; }
+
+/* NAV MODELOS */
+.containerNav nav {
+  font-size: 15px; }
+
+.containerNav img {
+  width: 150px; }
+
+/* MAIN MODELOS */
+.containerModelos h1 {
+  font-size: 50px; }
+
+.containerModelos h2 {
+  font-size: 30px; }
+
+.containerModelos h3 {
+  font-size: 30px; }
+
+.containerModelos p {
+  font-size: 20px; }
+
+.listText {
+  font-size: 18px; }
+
+.imgModelos {
+  max-height: 200px; }
+
+/*ENCUADERNADOS*/
+.imgEncuadernados {
+  height: 300px; }
+
+.purple-div {
+  height: 5px;
+  width: 200px; }
+
+/* CONTACTO */
+/* SECCION REDES */
+.artRedes__h1--font {
+  font-size: 35px; }
+
+.divRedes__img--size {
+  height: 100px; }
+
+.qrCode {
+  height: 100px; }
+
+/* MAIN SECTION CONTACTO  */
+.contactanosDiv h1 {
+  font-size: 40px; }
+
+.contactanosDiv p {
+  font-size: 22px;
+  width: 80%; }
+
+/* FORM CONTACT */
+.textArea {
+  height: 200px; }
+
+.textArea::placeholder {
+  width: 60%; }
+
+.cierreContact {
+  height: 200px; }
+  .cierreContact .cierreContact__h1--font {
+    font-size: 40px; }
+  .cierreContact .cierreContact__p--font {
+    font-size: 25px; }
+
+/* 404 */
+.container404 {
+  width: 100%;
+  height: 100%; }
+  .container404 h1 {
+    font-size: 50px; }
+  .container404 h2 {
+    font-size: 40px;
+    width: 60%; }
+  .container404 p {
+    font-size: 25px;
+    width: 60%; }
+  .container404 .button404 {
+    font-size: 25px; }
+
+/*VAR COLORS */
+a {
+  color: unset; }
+
+/* HEADER */
+header {
+  background-color: white; }
+
+/* MENU HAMBURGUESA */
+.menuHamburg .pos-f-t li {
+  color: #e7acb6;
+  background-color: #f5e2e2; }
+  .menuHamburg .pos-f-t li a {
+    text-decoration: none;
+    color: #e7acb6; }
+
+/* MENU DESKTOP */
+header nav ul li {
+  background-color: #f5e2e2;
+  color: #e7acb6; }
+
+header nav ul li a:hover {
+  color: #f880c6;
+  transition: 1s; }
+
+.div-pink {
+  background-color: pink; }
+
+/* WELCOME INDEX */
+.divText__h1--font {
+  color: #d4939e; }
+
+.divText__h2--font {
+  color: #f880c6; }
+
+.divText__p--font {
+  color: #b1488c; }
+
+/* FORM INDEX */
+.formIndex {
+  background-color: #f5e2e2; }
+  .formIndex .formIndex__p--font {
+    color: #f880c6; }
+  .formIndex label {
+    color: #d4939e; }
+
+form label {
+  color: #d4939e; }
+
+.inputIndex {
+  color: #413c3c;
+  border-color: #d4939e; }
+
+.submit {
+  background-color: #e7acb6;
+  color: white; }
+  .submit:hover {
+    background-color: pink; }
+
+/* footer */
+footer .footer__h3--colors {
+  color: white;
+  background-color: #e7acb6; }
+
+.footerNav h1 {
+  color: #d4939e; }
+
+.footerNav .contactos {
+  color: #d4939e; }
+
+.footerNav ul li {
+  color: #413c3c; }
+  .footerNav ul li a {
+    text-decoration: none; }
+    .footerNav ul li a:hover {
+      color: #d4939e;
+      transition: all 1s; }
+
+.legals__p--font {
+  color: #413c3c; }
+
+/* ABOUT US */
+/* WELCOME ABOUT US */
+.aboutUs {
+  background-color: #f5e2e2; }
+
+.containerAboutUsText h2 {
+  color: #8b4d81; }
+
+.containerAboutUsText p {
+  color: #413c3c; }
+  .containerAboutUsText p span {
+    color: #b1488c; }
+
+.containerAboutUsText .descriptionAboutUs2 {
+  color: #b1488c; }
+
+.containerAboutUsText h6 {
+  color: #b1488c; }
+
+article div h3 {
+  color: #d4939e; }
+
+article div p {
+  color: #413c3c; }
+
+/* HOW WE WORK */
+.howWeWork article h2 {
+  color: #f880c6;
+  background-color: #f5e2e2; }
+
+/* MODELOS */
+/* CAROUSEL */
+.carrouselCustom {
+  background-color: #f5e2e2; }
+  .carrouselCustom img {
+    border: solid 3px white; }
+
+/* ACCORDION */
+#accordion .card {
+  background-color: white; }
+
+#accordion .btn-link {
+  color: #b1488c; }
+
+#accordion .card-header {
+  border: solid 1px #f5e2e2;
+  background-color: white; }
+
+/* NAV MODELOS */
+.containerNav nav {
+  color: #e7acb6; }
+  .containerNav nav li {
+    background-color: #f5e2e2; }
+    .containerNav nav li a:hover {
+      color: #f880c6; }
+
+/* MAIN MODELOS */
+.containerModelos {
+  background-color: #f5e2e2; }
+  .containerModelos h1 {
+    color: #d4939e; }
+  .containerModelos h2 {
+    color: #f880c6; }
+  .containerModelos h3 {
+    color: #b1488c; }
+  .containerModelos p {
+    color: #413c3c; }
+
+.listText {
+  color: #413c3c; }
+
+.flexList p {
+  color: #f880c6; }
+
+/*ENCUADERNADOS*/
+.purple-div {
+  background-color: #b1488c; }
+
+/* CONTACTO */
+/* SECCION REDES */
+.secRedes--background {
+  background-color: white; }
+
+.artRedes__h1--font {
+  color: #f880c6; }
+
+/* MAIN SECTION CONTACTO  */
+.contactanosDiv h1 {
+  background-color: #e7acb6;
+  color: white; }
+
+.contactanosDiv p {
+  color: #413c3c; }
+
+/* FORM CONTACT */
+#contact form legend {
+  color: #f880c6; }
+
+fieldset {
+  border-color: #e7acb6; }
+
+.textArea {
+  color: #e7acb6;
+  border: solid 2px #e7acb6; }
+
+.cierreContact {
+  background-color: #f5e2e2; }
+  .cierreContact .cierreContact__h1--font {
+    color: #b1488c; }
+  .cierreContact .cierreContact__p--font {
+    color: #413c3c; }
+
+/* 404 */
+.container404 {
+  background-color: #f5e2e2; }
+  .container404 h1 {
+    color: #f880c6; }
+  .container404 h2 {
+    color: #f880c6; }
+  .container404 p {
+    color: #413c3c; }
+  .container404 .button404 {
+    color: #e7acb6; }
+    .container404 .button404:hover {
+      color: #f880c6; }
+
 /* MEDIA QUERY TABLET */
 @media only screen and (min-width: 1200px) {
   .menuHamburg {

@@ -1,4 +1,6 @@
 @import '_tamanios.scss';
+@import '_colors.scss';
+@import '_fonts.scss';
 
 /* MEDIA QUERY TABLET */
 
@@ -81,7 +83,7 @@
         position: relative;
         bottom: 0px;
         padding: 50px 0px 50px 30px;
-        background-color:rgb(255, 213, 222);
+        background-color:$backrosaclaro
         p {
             width: 90%;
         }
@@ -306,9 +308,9 @@ input[type="checkbox"] {
         .dropdown {
         display:unset;
         button {
-            background-color:rgb(245, 225, 228);
-            font-family: 'Roboto', sans-serif;
-            color:rgb(231, 116, 183);
+            background-color:$backrosaclaro;
+            font-family: $roboto;
+            color:$rosalogo;
             font-weight: bold;
             width: 100%;
             border: none;
@@ -343,7 +345,7 @@ input[type="checkbox"] {
 
 .containerAboutUsText {
     position: relative;
-    background-color:rgb(255, 213, 222);
+    background-color:$backrosaclaro;
     bottom: 0px;
     padding: 30px 0px 30px 30px;
     margin-left: 0px;
