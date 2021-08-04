@@ -75,15 +75,13 @@
 
 /* ABOUT US */
 
-    .backgroundAboutUs {
-        display: none;
+    .aboutus .bg {
+        padding: 30px 0px 30px 30px;
     }
 
     .containerAboutUsText {
         position: relative;
-        bottom: 0px;
-        padding: 50px 0px 50px 30px;
-        background-color:$backrosaclaro;
+        padding: 0px;
         p {
             width: 90%;
         }
@@ -220,7 +218,7 @@ input[type="checkbox"] {
     .navMedia {
         padding-right: 10px;
         img {
-            height: 20px;
+            height: 25px;
         }
     }
 
@@ -250,7 +248,7 @@ input[type="checkbox"] {
 
     .divText__p--margin {
         margin-left: -30px;
-        margin-right: 0px;
+        margin-right: 10px;
         font-size: 18px;
     }
 
@@ -320,16 +318,29 @@ input[type="checkbox"] {
         }
     }
 
+    .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+        background-color: pink;
+        border-color: $backrosaclaro;
+    }
+
+    .btn-secondary:focus, .btn-secondary.focus {
+        color: #fff;
+        background-color: pink;
+        border: none;
+    }
+
     .dropdown-menu {
         transition: all 0.5s;
     }
 
     .container-fluid__legals--boxmodel {
         margin: 5px 0px;
+        justify-content: center;
     }
 
     .legals__p--font {
-        font-size: 12px;
+        font-size: 15px;
+        text-align: center;
     }
 
     .legals__p--boxmodel {
@@ -339,16 +350,11 @@ input[type="checkbox"] {
 
 /* ABOUT US */
 
-.backgroundAboutUs {
-    display: none;
+.aboutus .bg {
+    padding: 20px 0px 20px 30px;
 }
 
 .containerAboutUsText {
-    position: relative;
-    background-color:rgb(255, 206, 214);;
-    bottom: 0px;
-    padding: 30px 0px 30px 30px;
-    margin-left: 0px;
     h2 {
         font-size: 35px;
         margin-left: 0px;

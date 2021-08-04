@@ -7,7 +7,12 @@
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -262,9 +267,6 @@ footer .footer__h3--colors {
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
-.aboutUs {
-  background-color: #f5e2e2; }
-
 .containerAboutUsText h2 {
   color: #8b4d81; }
 
@@ -2145,7 +2147,12 @@ textarea.form-control {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -2400,9 +2407,6 @@ footer .footer__h3--colors {
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
-.aboutUs {
-  background-color: #f5e2e2; }
-
 .containerAboutUsText h2 {
   color: #8b4d81; }
 
@@ -8065,7 +8069,12 @@ a.text-rosaviejo2:hover, a.text-rosaviejo2:focus {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -8240,7 +8249,12 @@ article div p {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -8495,9 +8509,6 @@ footer .footer__h3--colors {
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
-.aboutUs {
-  background-color: #f5e2e2; }
-
 .containerAboutUsText h2 {
   color: #8b4d81; }
 
@@ -8788,7 +8799,12 @@ article div p {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -9043,9 +9059,6 @@ footer .footer__h3--colors {
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
-.aboutUs {
-  background-color: #f5e2e2; }
-
 .containerAboutUsText h2 {
   color: #8b4d81; }
 
@@ -9170,7 +9183,12 @@ fieldset {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -9455,7 +9473,12 @@ fieldset {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -9630,7 +9653,12 @@ article div p {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -9842,7 +9870,7 @@ header .navbar {
   margin-top: -5px; }
 
 .social-icon {
-  padding-left: 5px; }
+  padding-left: 10px; }
 
 header nav ul {
   display: flex;
@@ -10121,7 +10149,12 @@ legend {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -10296,7 +10329,12 @@ article div p {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -10551,9 +10589,6 @@ footer .footer__h3--colors {
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
-.aboutUs {
-  background-color: #f5e2e2; }
-
 .containerAboutUsText h2 {
   color: #8b4d81; }
 
@@ -10678,7 +10713,12 @@ fieldset {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -10853,7 +10893,12 @@ article div p {
 /* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
-  font-size: 13px; }
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
 
 /* MENU DESKTOP */
 .logo-main {
@@ -11108,9 +11153,6 @@ footer .footer__h3--colors {
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
-.aboutUs {
-  background-color: #f5e2e2; }
-
 .containerAboutUsText h2 {
   color: #8b4d81; }
 
@@ -11435,13 +11477,11 @@ article div p {
     .footerNav ul li {
       padding: 0px; }
   /* ABOUT US */
-  .backgroundAboutUs {
-    display: none; }
+  .aboutus .bg {
+    padding: 30px 0px 30px 30px; }
   .containerAboutUsText {
     position: relative;
-    bottom: 0px;
-    padding: 50px 0px 50px 30px;
-    background-color: #f5e2e2; }
+    padding: 0px; }
     .containerAboutUsText p {
       width: 90%; }
     .containerAboutUsText h6 {
@@ -11511,7 +11551,7 @@ article div p {
   .navMedia {
     padding-right: 10px; }
     .navMedia img {
-      height: 20px; }
+      height: 25px; }
   /* WELCOME SECTION */
   .welcomeContainer {
     padding: 0px;
@@ -11529,7 +11569,7 @@ article div p {
     font-weight: bold; }
   .divText__p--margin {
     margin-left: -30px;
-    margin-right: 0px;
+    margin-right: 10px;
     font-size: 18px; }
   .divText__p--font {
     font-size: 18px; }
@@ -11566,37 +11606,41 @@ article div p {
       border: none;
       transition: all 1s;
       font-size: 20px !important; }
+  .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+  .show > .btn-secondary.dropdown-toggle {
+    background-color: pink;
+    border-color: #f5e2e2; }
+  .btn-secondary:focus, .btn-secondary.focus {
+    color: #fff;
+    background-color: pink;
+    border: none; }
   .dropdown-menu {
     transition: all 0.5s; }
   .container-fluid__legals--boxmodel {
-    margin: 5px 0px; }
+    margin: 5px 0px;
+    justify-content: center; }
   .legals__p--font {
-    font-size: 12px; }
+    font-size: 15px;
+    text-align: center; }
   .legals__p--boxmodel {
     padding-left: 5px;
     padding-top: 5px; }
   /* ABOUT US */
-  .backgroundAboutUs {
-    display: none; }
-  .containerAboutUsText {
-    position: relative;
-    background-color: #ffced6;
-    bottom: 0px;
-    padding: 30px 0px 30px 30px;
-    margin-left: 0px; }
-    .containerAboutUsText h2 {
-      font-size: 35px;
-      margin-left: 0px;
-      padding-left: 0px;
-      padding-bottom: 10px; }
-    .containerAboutUsText p {
-      font-size: 18px;
-      margin: 0px;
-      padding: 10px;
-      width: 90%; }
-    .containerAboutUsText h6 {
-      font-size: 30px;
-      margin-top: 30px; }
+  .aboutus .bg {
+    padding: 20px 0px 20px 30px; }
+  .containerAboutUsText h2 {
+    font-size: 35px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px; }
+  .containerAboutUsText p {
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px;
+    width: 90%; }
+  .containerAboutUsText h6 {
+    font-size: 30px;
+    margin-top: 30px; }
   /* HOW WE WORK */
   .howWeWork div {
     grid-template-columns: 150px auto;
