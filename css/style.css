@@ -4,7 +4,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -234,7 +233,7 @@ form label {
   color: #d4939e; }
 
 .inputIndex {
-  color: #413c3c;
+  color: #756e6e;
   border-color: #d4939e; }
 
 .submit {
@@ -255,7 +254,7 @@ footer .footer__h3--colors {
   color: #d4939e; }
 
 .footerNav ul li {
-  color: #413c3c; }
+  color: #756e6e; }
   .footerNav ul li a {
     text-decoration: none; }
     .footerNav ul li a:hover {
@@ -263,7 +262,7 @@ footer .footer__h3--colors {
       transition: all 1s; }
 
 .legals__p--font {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
@@ -271,7 +270,7 @@ footer .footer__h3--colors {
   color: #8b4d81; }
 
 .containerAboutUsText p {
-  color: #413c3c; }
+  color: #756e6e; }
   .containerAboutUsText p span {
     color: #b1488c; }
 
@@ -285,7 +284,7 @@ article div h3 {
   color: #d4939e; }
 
 article div p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* HOW WE WORK */
 .howWeWork article h2 {
@@ -328,10 +327,10 @@ article div p {
   .containerModelos h3 {
     color: #b1488c; }
   .containerModelos p {
-    color: #413c3c; }
+    color: #756e6e; }
 
 .listText {
-  color: #413c3c; }
+  color: #756e6e; }
 
 .flexList p {
   color: #f880c6; }
@@ -354,7 +353,7 @@ article div p {
   color: white; }
 
 .contactanosDiv p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* FORM CONTACT */
 #contact form legend {
@@ -372,7 +371,7 @@ fieldset {
   .cierreContact .cierreContact__h1--font {
     color: #b1488c; }
   .cierreContact .cierreContact__p--font {
-    color: #413c3c; }
+    color: #756e6e; }
 
 /* 404 */
 .container404 {
@@ -382,7 +381,7 @@ fieldset {
   .container404 h2 {
     color: #f880c6; }
   .container404 p {
-    color: #413c3c; }
+    color: #756e6e; }
   .container404 .button404 {
     color: #e7acb6; }
     .container404 .button404:hover {
@@ -2144,7 +2143,6 @@ textarea.form-control {
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -2374,7 +2372,7 @@ form label {
   color: #d4939e; }
 
 .inputIndex {
-  color: #413c3c;
+  color: #756e6e;
   border-color: #d4939e; }
 
 .submit {
@@ -2395,7 +2393,7 @@ footer .footer__h3--colors {
   color: #d4939e; }
 
 .footerNav ul li {
-  color: #413c3c; }
+  color: #756e6e; }
   .footerNav ul li a {
     text-decoration: none; }
     .footerNav ul li a:hover {
@@ -2403,7 +2401,7 @@ footer .footer__h3--colors {
       transition: all 1s; }
 
 .legals__p--font {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
@@ -2411,7 +2409,7 @@ footer .footer__h3--colors {
   color: #8b4d81; }
 
 .containerAboutUsText p {
-  color: #413c3c; }
+  color: #756e6e; }
   .containerAboutUsText p span {
     color: #b1488c; }
 
@@ -2425,7 +2423,7 @@ article div h3 {
   color: #d4939e; }
 
 article div p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* HOW WE WORK */
 .howWeWork article h2 {
@@ -2468,10 +2466,10 @@ article div p {
   .containerModelos h3 {
     color: #b1488c; }
   .containerModelos p {
-    color: #413c3c; }
+    color: #756e6e; }
 
 .listText {
-  color: #413c3c; }
+  color: #756e6e; }
 
 .flexList p {
   color: #f880c6; }
@@ -2494,7 +2492,7 @@ article div p {
   color: white; }
 
 .contactanosDiv p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* FORM CONTACT */
 #contact form legend {
@@ -2512,7 +2510,7 @@ fieldset {
   .cierreContact .cierreContact__h1--font {
     color: #b1488c; }
   .cierreContact .cierreContact__p--font {
-    color: #413c3c; }
+    color: #756e6e; }
 
 /* 404 */
 .container404 {
@@ -2522,7 +2520,7 @@ fieldset {
   .container404 h2 {
     color: #f880c6; }
   .container404 p {
-    color: #413c3c; }
+    color: #756e6e; }
   .container404 .button404 {
     color: #e7acb6; }
     .container404 .button404:hover {
@@ -8066,7 +8064,6 @@ a.text-rosaviejo2:hover, a.text-rosaviejo2:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -8246,7 +8243,6 @@ article div p {
   .container404 .button404 {
     font-size: 25px; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -8476,7 +8472,7 @@ form label {
   color: #d4939e; }
 
 .inputIndex {
-  color: #413c3c;
+  color: #756e6e;
   border-color: #d4939e; }
 
 .submit {
@@ -8497,7 +8493,7 @@ footer .footer__h3--colors {
   color: #d4939e; }
 
 .footerNav ul li {
-  color: #413c3c; }
+  color: #756e6e; }
   .footerNav ul li a {
     text-decoration: none; }
     .footerNav ul li a:hover {
@@ -8505,7 +8501,7 @@ footer .footer__h3--colors {
       transition: all 1s; }
 
 .legals__p--font {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
@@ -8513,7 +8509,7 @@ footer .footer__h3--colors {
   color: #8b4d81; }
 
 .containerAboutUsText p {
-  color: #413c3c; }
+  color: #756e6e; }
   .containerAboutUsText p span {
     color: #b1488c; }
 
@@ -8527,7 +8523,7 @@ article div h3 {
   color: #d4939e; }
 
 article div p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* HOW WE WORK */
 .howWeWork article h2 {
@@ -8570,10 +8566,10 @@ article div p {
   .containerModelos h3 {
     color: #b1488c; }
   .containerModelos p {
-    color: #413c3c; }
+    color: #756e6e; }
 
 .listText {
-  color: #413c3c; }
+  color: #756e6e; }
 
 .flexList p {
   color: #f880c6; }
@@ -8596,7 +8592,7 @@ article div p {
   color: white; }
 
 .contactanosDiv p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* FORM CONTACT */
 #contact form legend {
@@ -8614,7 +8610,7 @@ fieldset {
   .cierreContact .cierreContact__h1--font {
     color: #b1488c; }
   .cierreContact .cierreContact__p--font {
-    color: #413c3c; }
+    color: #756e6e; }
 
 /* 404 */
 .container404 {
@@ -8624,7 +8620,7 @@ fieldset {
   .container404 h2 {
     color: #f880c6; }
   .container404 p {
-    color: #413c3c; }
+    color: #756e6e; }
   .container404 .button404 {
     color: #e7acb6; }
     .container404 .button404:hover {
@@ -8640,16 +8636,16 @@ a {
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   list-style: none;
-  text-align: center;
   font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
   font-weight: bold; }
 
 /* MENU DESKTOP */
 header nav ul li {
   list-style: none;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
   text-align: center;
+  font-weight: bold;
   text-decoration: none; }
 
 header nav ul li a:hover {
@@ -8667,11 +8663,13 @@ header nav ul li a:hover {
 
 .divText__p--font {
   font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
   font-weight: bold; }
 
 /* FORM INDEX */
 .formIndex__p--font {
   font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
   font-weight: bold; }
 
 form label {
@@ -8682,6 +8680,7 @@ form label {
 
 .submit {
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: bold; }
 
 /* footer */
@@ -8738,9 +8737,9 @@ article div p {
 
 /* NAV MODELOS */
 .containerNav nav {
-  text-align: center;
   list-style: none;
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: bold; }
   .containerNav nav li a {
     text-decoration: none; }
@@ -8792,11 +8791,11 @@ article div p {
   font-family: "Source Sans Pro", sans-serif; }
 
 .container404 .button404 {
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-weight: bold;
   text-decoration: none; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -9026,7 +9025,7 @@ form label {
   color: #d4939e; }
 
 .inputIndex {
-  color: #413c3c;
+  color: #756e6e;
   border-color: #d4939e; }
 
 .submit {
@@ -9047,7 +9046,7 @@ footer .footer__h3--colors {
   color: #d4939e; }
 
 .footerNav ul li {
-  color: #413c3c; }
+  color: #756e6e; }
   .footerNav ul li a {
     text-decoration: none; }
     .footerNav ul li a:hover {
@@ -9055,7 +9054,7 @@ footer .footer__h3--colors {
       transition: all 1s; }
 
 .legals__p--font {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
@@ -9063,7 +9062,7 @@ footer .footer__h3--colors {
   color: #8b4d81; }
 
 .containerAboutUsText p {
-  color: #413c3c; }
+  color: #756e6e; }
   .containerAboutUsText p span {
     color: #b1488c; }
 
@@ -9077,7 +9076,7 @@ article div h3 {
   color: #d4939e; }
 
 article div p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* HOW WE WORK */
 .howWeWork article h2 {
@@ -9120,10 +9119,10 @@ article div p {
   .containerModelos h3 {
     color: #b1488c; }
   .containerModelos p {
-    color: #413c3c; }
+    color: #756e6e; }
 
 .listText {
-  color: #413c3c; }
+  color: #756e6e; }
 
 .flexList p {
   color: #f880c6; }
@@ -9146,7 +9145,7 @@ article div p {
   color: white; }
 
 .contactanosDiv p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* FORM CONTACT */
 #contact form legend {
@@ -9164,7 +9163,7 @@ fieldset {
   .cierreContact .cierreContact__h1--font {
     color: #b1488c; }
   .cierreContact .cierreContact__p--font {
-    color: #413c3c; }
+    color: #756e6e; }
 
 /* 404 */
 .container404 {
@@ -9174,13 +9173,12 @@ fieldset {
   .container404 h2 {
     color: #f880c6; }
   .container404 p {
-    color: #413c3c; }
+    color: #756e6e; }
   .container404 .button404 {
     color: #e7acb6; }
     .container404 .button404:hover {
       color: #f880c6; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -9376,8 +9374,12 @@ article div p {
 header nav ul li {
   border-radius: 10px; }
   header nav ul li:hover {
-    transition: all 1s;
-    transform: scale(1.2); }
+    transform: scale(1.2);
+    transition: 1s; }
+
+.logo-main:hover {
+  transform: scale(1.2);
+  transition: 1s; }
 
 /* WELCOME INDEX */
 .artWelcomeIndex__divBackImg--overflow {
@@ -9407,12 +9409,16 @@ input[type=number]::-webkit-outer-spin-button {
     transition: 1s; }
 
 /* footer */
+.flexFooterSocial img:hover {
+  transform: scale(1.1);
+  transition: 1s; }
+
 .footerNav ul li:hover {
   transition: 0.5s; }
 
 /* ABOUT US */
-.backgroundAboutUs {
-  opacity: 0.5; }
+.containerAboutUsText {
+  overflow: hidden; }
 
 /* MODELOS */
 /* ACCORDION */
@@ -9426,8 +9432,8 @@ input[type=number]::-webkit-outer-spin-button {
 .navModelos li {
   border-radius: 10px; }
   .navModelos li:hover {
-    transition: all 1s;
-    transform: scale(1.1); }
+    transform: scale(1.1);
+    transition: 1s; }
   .navModelos li a:hover {
     transition: 1s; }
 
@@ -9437,11 +9443,11 @@ input[type=number]::-webkit-outer-spin-button {
 /* MAIN MODELOS */
 .imgModelos:hover {
   transform: scale(1.5);
-  transition: all 1s; }
+  transition: 1s; }
 
 .containerImgModelos div img:hover {
   transform: scale(1.2);
-  transition: all 1s; }
+  transition: 1s; }
 
 /*ENCUADERNADOS*/
 .imgEncuadernados:hover {
@@ -9470,7 +9476,6 @@ fieldset {
 .container404 .animate__animated.animate__bounce {
   animation-iteration-count: infinite; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -9650,7 +9655,6 @@ article div p {
   .container404 .button404 {
     font-size: 25px; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -9834,6 +9838,10 @@ article div p {
   margin: 0;
   padding: 0; }
 
+.reset-m-p, header .navbar, .div-pink {
+  margin: 0px;
+  padding: 0px; }
+
 /* HEADER */
 header {
   position: sticky;
@@ -9850,10 +9858,6 @@ header {
   .menuHamburg .pos-f-t li {
     padding: 5px;
     margin-bottom: 5px; }
-
-header .navbar {
-  padding: 0px;
-  margin: 0px; }
 
 /* MENU DESKTOP */
 .stickyNav {
@@ -9879,31 +9883,28 @@ header nav ul {
     padding: 10px;
     margin: 0px 10px; }
 
-.div-pink {
-  margin: 0px;
-  padding: 0px; }
-
 /* WELCOME INDEX */
+.welcomeContainer .bg {
+  background-image: url("../assets/images/background-agenda.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px 100px 50px; }
+
 .welcomeContainer__artWelcomeIndex--flex {
   display: flex;
   flex-direction: column; }
 
-.divBackImg__img--boxmod {
-  position: relative; }
-
-.artWelcomeIndex__divText--boxmod {
-  margin-left: 50px;
-  position: absolute; }
-
 .divText__h1--boxmod {
   margin-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 70px; }
 
 .divText__h2--margin {
   margin-left: 40px; }
 
 .divText__p--margin {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-left: 40px; }
 
 /* FORM INDEX */
@@ -10146,7 +10147,6 @@ legend {
 .container404 .button404 {
   padding-top: 20px; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -10326,7 +10326,6 @@ article div p {
   .container404 .button404 {
     font-size: 25px; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -10556,7 +10555,7 @@ form label {
   color: #d4939e; }
 
 .inputIndex {
-  color: #413c3c;
+  color: #756e6e;
   border-color: #d4939e; }
 
 .submit {
@@ -10577,7 +10576,7 @@ footer .footer__h3--colors {
   color: #d4939e; }
 
 .footerNav ul li {
-  color: #413c3c; }
+  color: #756e6e; }
   .footerNav ul li a {
     text-decoration: none; }
     .footerNav ul li a:hover {
@@ -10585,7 +10584,7 @@ footer .footer__h3--colors {
       transition: all 1s; }
 
 .legals__p--font {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
@@ -10593,7 +10592,7 @@ footer .footer__h3--colors {
   color: #8b4d81; }
 
 .containerAboutUsText p {
-  color: #413c3c; }
+  color: #756e6e; }
   .containerAboutUsText p span {
     color: #b1488c; }
 
@@ -10607,7 +10606,7 @@ article div h3 {
   color: #d4939e; }
 
 article div p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* HOW WE WORK */
 .howWeWork article h2 {
@@ -10650,10 +10649,10 @@ article div p {
   .containerModelos h3 {
     color: #b1488c; }
   .containerModelos p {
-    color: #413c3c; }
+    color: #756e6e; }
 
 .listText {
-  color: #413c3c; }
+  color: #756e6e; }
 
 .flexList p {
   color: #f880c6; }
@@ -10676,7 +10675,7 @@ article div p {
   color: white; }
 
 .contactanosDiv p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* FORM CONTACT */
 #contact form legend {
@@ -10694,7 +10693,7 @@ fieldset {
   .cierreContact .cierreContact__h1--font {
     color: #b1488c; }
   .cierreContact .cierreContact__p--font {
-    color: #413c3c; }
+    color: #756e6e; }
 
 /* 404 */
 .container404 {
@@ -10704,13 +10703,12 @@ fieldset {
   .container404 h2 {
     color: #f880c6; }
   .container404 p {
-    color: #413c3c; }
+    color: #756e6e; }
   .container404 .button404 {
     color: #e7acb6; }
     .container404 .button404:hover {
       color: #f880c6; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -10890,7 +10888,6 @@ article div p {
   .container404 .button404 {
     font-size: 25px; }
 
-/* VAR RESPONSIVE */
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   font-size: 18px; }
@@ -11120,7 +11117,7 @@ form label {
   color: #d4939e; }
 
 .inputIndex {
-  color: #413c3c;
+  color: #756e6e;
   border-color: #d4939e; }
 
 .submit {
@@ -11141,7 +11138,7 @@ footer .footer__h3--colors {
   color: #d4939e; }
 
 .footerNav ul li {
-  color: #413c3c; }
+  color: #756e6e; }
   .footerNav ul li a {
     text-decoration: none; }
     .footerNav ul li a:hover {
@@ -11149,7 +11146,7 @@ footer .footer__h3--colors {
       transition: all 1s; }
 
 .legals__p--font {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* ABOUT US */
 /* WELCOME ABOUT US */
@@ -11157,7 +11154,7 @@ footer .footer__h3--colors {
   color: #8b4d81; }
 
 .containerAboutUsText p {
-  color: #413c3c; }
+  color: #756e6e; }
   .containerAboutUsText p span {
     color: #b1488c; }
 
@@ -11171,7 +11168,7 @@ article div h3 {
   color: #d4939e; }
 
 article div p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* HOW WE WORK */
 .howWeWork article h2 {
@@ -11214,10 +11211,10 @@ article div p {
   .containerModelos h3 {
     color: #b1488c; }
   .containerModelos p {
-    color: #413c3c; }
+    color: #756e6e; }
 
 .listText {
-  color: #413c3c; }
+  color: #756e6e; }
 
 .flexList p {
   color: #f880c6; }
@@ -11240,7 +11237,7 @@ article div p {
   color: white; }
 
 .contactanosDiv p {
-  color: #413c3c; }
+  color: #756e6e; }
 
 /* FORM CONTACT */
 #contact form legend {
@@ -11258,7 +11255,7 @@ fieldset {
   .cierreContact .cierreContact__h1--font {
     color: #b1488c; }
   .cierreContact .cierreContact__p--font {
-    color: #413c3c; }
+    color: #756e6e; }
 
 /* 404 */
 .container404 {
@@ -11268,7 +11265,7 @@ fieldset {
   .container404 h2 {
     color: #f880c6; }
   .container404 p {
-    color: #413c3c; }
+    color: #756e6e; }
   .container404 .button404 {
     color: #e7acb6; }
     .container404 .button404:hover {
@@ -11284,16 +11281,16 @@ a {
 /* MENU HAMBURGUESA */
 .menuHamburg .pos-f-t li {
   list-style: none;
-  text-align: center;
   font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
   font-weight: bold; }
 
 /* MENU DESKTOP */
 header nav ul li {
   list-style: none;
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
   text-align: center;
+  font-weight: bold;
   text-decoration: none; }
 
 header nav ul li a:hover {
@@ -11311,11 +11308,13 @@ header nav ul li a:hover {
 
 .divText__p--font {
   font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
   font-weight: bold; }
 
 /* FORM INDEX */
 .formIndex__p--font {
   font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
   font-weight: bold; }
 
 form label {
@@ -11326,6 +11325,7 @@ form label {
 
 .submit {
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: bold; }
 
 /* footer */
@@ -11382,9 +11382,9 @@ article div p {
 
 /* NAV MODELOS */
 .containerNav nav {
-  text-align: center;
   list-style: none;
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: bold; }
   .containerNav nav li a {
     text-decoration: none; }
@@ -11436,9 +11436,502 @@ article div p {
   font-family: "Source Sans Pro", sans-serif; }
 
 .container404 .button404 {
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-weight: bold;
   text-decoration: none; }
+
+/* MENU HAMBURGUESA */
+.menuHamburg .pos-f-t li {
+  font-size: 18px; }
+
+.navbar-toggler-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px; }
+
+/* MENU DESKTOP */
+.logo-main {
+  height: 60px; }
+
+.social-icon {
+  height: 40px; }
+
+.div-pink {
+  height: 5px; }
+
+header nav ul li {
+  font-size: 18px; }
+
+/* WELCOME INDEX */
+.artWelcomeIndex__divBackImg--height {
+  max-height: 445px; }
+
+.divText__h1--font {
+  font-size: 45px; }
+
+.divText__p--font {
+  font-size: 20px; }
+
+/* FORM INDEX */
+.formIndex__p--font {
+  font-size: 20px; }
+
+form label {
+  font-size: 20px; }
+
+.inputIndex {
+  height: 35px;
+  width: 350px; }
+
+.submit {
+  height: 50px;
+  width: 100px; }
+
+/* footer */
+.footer__h3--font {
+  font-size: 30px; }
+
+.footerNav h1 {
+  font-size: 22px; }
+
+.footerNav ul li {
+  font-size: 20px; }
+
+.legals__p--font {
+  font-size: 20px; }
+
+.legals__img--size {
+  height: 25px; }
+
+/* ABOUT US */
+/* WELCOME ABOUT US */
+.backgroundAboutUs {
+  width: 100%; }
+
+.containerAboutUsText h2 {
+  font-size: 40px; }
+
+.containerAboutUsText p {
+  font-size: 18px;
+  width: 60%; }
+
+.containerAboutUsText h6 {
+  font-size: 30px; }
+
+article div h3 {
+  font-size: 25px; }
+
+article div p {
+  font-size: 18px; }
+
+/* HOW WE WORK */
+.howWeWork article h2 {
+  font-size: 40px; }
+
+.howWeWork div img {
+  height: 60px; }
+
+/* MODELOS */
+/* CAROUSEL */
+.carrouselCustom img {
+  max-height: 300px;
+  max-width: 550px; }
+
+/* NAV MODELOS */
+.containerNav nav {
+  font-size: 15px; }
+
+.containerNav img {
+  width: 150px; }
+
+/* MAIN MODELOS */
+.containerModelos h1 {
+  font-size: 50px; }
+
+.containerModelos h2 {
+  font-size: 30px; }
+
+.containerModelos h3 {
+  font-size: 30px; }
+
+.containerModelos p {
+  font-size: 20px; }
+
+.listText {
+  font-size: 18px; }
+
+.imgModelos {
+  max-height: 200px; }
+
+/*ENCUADERNADOS*/
+.imgEncuadernados {
+  height: 300px; }
+
+.purple-div {
+  height: 5px;
+  width: 200px; }
+
+/* CONTACTO */
+/* SECCION REDES */
+.artRedes__h1--font {
+  font-size: 35px; }
+
+.divRedes__img--size {
+  height: 100px; }
+
+.qrCode {
+  height: 100px; }
+
+/* MAIN SECTION CONTACTO  */
+.contactanosDiv h1 {
+  font-size: 40px; }
+
+.contactanosDiv p {
+  font-size: 22px;
+  width: 80%; }
+
+/* FORM CONTACT */
+.textArea {
+  height: 200px; }
+
+.textArea::placeholder {
+  width: 60%; }
+
+.cierreContact {
+  height: 200px; }
+  .cierreContact .cierreContact__h1--font {
+    font-size: 40px; }
+  .cierreContact .cierreContact__p--font {
+    font-size: 25px; }
+
+/* 404 */
+.container404 {
+  width: 100%;
+  height: 100%; }
+  .container404 h1 {
+    font-size: 50px; }
+  .container404 h2 {
+    font-size: 40px;
+    width: 60%; }
+  .container404 p {
+    font-size: 25px;
+    width: 60%; }
+  .container404 .button404 {
+    font-size: 25px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.reset-m-p, header .navbar, .div-pink {
+  margin: 0px;
+  padding: 0px; }
+
+/* HEADER */
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+  padding-top: 30px; }
+
+/* MENU HAMBURGUESA */
+.menuHamburg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px; }
+  .menuHamburg .pos-f-t li {
+    padding: 5px;
+    margin-bottom: 5px; }
+
+/* MENU DESKTOP */
+.stickyNav {
+  align-items: center; }
+
+.navMedia {
+  order: 3;
+  display: flex;
+  flex-direction: row; }
+
+.logo-main {
+  margin-left: 40%;
+  margin-bottom: 15px;
+  margin-top: -5px; }
+
+.social-icon {
+  padding-left: 10px; }
+
+header nav ul {
+  display: flex;
+  flex-direction: row; }
+  header nav ul li {
+    padding: 10px;
+    margin: 0px 10px; }
+
+/* WELCOME INDEX */
+.welcomeContainer .bg {
+  background-image: url("../assets/images/background-agenda.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px 100px 50px; }
+
+.welcomeContainer__artWelcomeIndex--flex {
+  display: flex;
+  flex-direction: column; }
+
+.divText__h1--boxmod {
+  margin-top: 50px;
+  padding-bottom: 70px; }
+
+.divText__h2--margin {
+  margin-left: 40px; }
+
+.divText__p--margin {
+  margin-top: 80px;
+  margin-left: 40px; }
+
+/* FORM INDEX */
+.formIndex {
+  padding-left: 50px; }
+  .formIndex .formIndex__p--boxmodel {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .formIndex .formIndex__img--boxmodel {
+    top: -70px;
+    align-self: center;
+    margin-left: 50px; }
+
+form label {
+  margin-left: 30px; }
+
+.inputIndex {
+  padding-left: 4px;
+  margin-left: 15px;
+  margin-bottom: 15px; }
+
+.formIndex .submit {
+  left: 200px; }
+
+.submit {
+  display: block;
+  position: relative;
+  margin: 30px; }
+
+/* footer */
+footer .footer__h3--boxmodel {
+  padding: 20px;
+  margin: 0px; }
+
+footer .dropdown {
+  display: none; }
+
+.footerNav {
+  margin-top: 20px;
+  padding-left: 50px; }
+
+.flexFooterSocial {
+  position: relative;
+  display: flex;
+  flex-direction: row; }
+
+.container-fluid__legals--boxmodel {
+  margin: 10px 15px; }
+  .container-fluid__legals--boxmodel .legals__p--boxmodel {
+    padding-left: 10px; }
+
+/* ABOUT US */
+/* WELCOME ABOUT US */
+.aboutus {
+  height: 100%; }
+
+.aboutus .bg {
+  background-image: url("../assets/images/background-aboutus.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px 50px 50px; }
+
+.containerAboutUsText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 0px; }
+  .containerAboutUsText h2 {
+    padding-left: 30px;
+    padding-bottom: 20px; }
+  .containerAboutUsText p {
+    margin: 0px 25px;
+    padding: 15px; }
+    .containerAboutUsText p h6 {
+      margin-top: 40px; }
+
+/* HOW WE WORK */
+.howWeWork article h2 {
+  padding: 50px;
+  margin-top: -5px; }
+
+.howWeWork div {
+  display: grid;
+  grid-template-areas: "titulo-how imagen-how" "descripcion-how descripcion-how";
+  grid-template-columns: 200px auto;
+  grid-template-rows: 120px 80px;
+  margin: 0px 0px 50px 50px;
+  position: relative;
+  align-items: center; }
+  .howWeWork div h3 {
+    grid-area: titulo-how; }
+  .howWeWork div img {
+    grid-area: imagen-how;
+    justify-self: start; }
+  .howWeWork div p {
+    grid-area: descripcion-how; }
+
+/* MODELOS */
+/* CAROUSEL */
+.carrouselCustom img {
+  padding: 3px; }
+
+/* ACCORDION */
+#accordion {
+  padding-bottom: 30px; }
+  #accordion article {
+    padding-top: 10px; }
+
+/* NAV MODELOS */
+.containerNav {
+  display: flex;
+  flex-direction: column; }
+  .containerNav nav {
+    margin-top: 5px; }
+    .containerNav nav li {
+      position: relative;
+      display: inline-block;
+      padding: 20px;
+      margin: 10px 10px; }
+  .containerNav img {
+    display: block;
+    position: relative;
+    top: -30px;
+    margin: auto;
+    margin-bottom: -30px;
+    padding-bottom: 10px; }
+
+/* MAIN MODELOS */
+.containerModelos .row {
+  padding: 20px 40px;
+  align-items: center; }
+
+.containerModelos h3 {
+  margin-top: 30px; }
+
+.containerModelos p {
+  padding-top: 15px; }
+
+.flexList {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px; }
+
+.listText {
+  padding-left: 15px; }
+
+.imgModelos {
+  padding-left: 60px; }
+
+.imgModelos:hover {
+  z-index: 15; }
+
+.containerImgModelos div img {
+  padding-left: 60px; }
+
+.containerImgModelos div img:hover {
+  z-index: 15; }
+
+/*ENCUADERNADOS*/
+.imgEncuadernados {
+  padding-top: 50px;
+  padding-left: 100px; }
+
+.container-fluid iframe, .container-sm iframe, .container-md iframe, .container-lg iframe, .container-xl iframe {
+  padding-top: 50px; }
+
+.purple-div {
+  position: relative;
+  margin-top: 50px;
+  margin: auto; }
+
+/* CONTACTO */
+/* SECCION REDES */
+.secRedes--boxmodel {
+  margin: 50px 0px 50px 0px; }
+
+.artRedes__redesGroup--boxmodel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 35px; }
+
+.qrCode {
+  padding: 30px 15px 0px 15px; }
+
+/* MAIN SECTION CONTACTO  */
+.contactanosDiv h1 {
+  padding: 40px;
+  margin-bottom: 0px; }
+
+.contactanosDiv p {
+  margin-top: 40px;
+  margin-bottom: -15px;
+  padding-left: 30px; }
+
+/* FORM CONTACT */
+#contact form {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  #contact form fieldset div {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+
+input[type="radio"] {
+  margin: 15px 20px 20px 30px; }
+
+input[type="checkbox"] {
+  margin: 10px 15px 10px 30px; }
+
+legend {
+  padding: 15px; }
+
+.textArea {
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.textArea::placeholder {
+  padding: 5px; }
+
+.cierreContact__h1--boxmodel {
+  padding-top: 25px; }
+
+.cierreContact__p--boxmodel {
+  padding-top: 30px; }
+
+/* 404 */
+.container404 h1 {
+  padding-bottom: 30px;
+  padding-top: 50px; }
+
+.container404 h2 {
+  padding-bottom: 50px; }
+
+.container404 .button404 {
+  padding-top: 20px; }
 
 /* MEDIA QUERY TABLET */
 @media only screen and (min-width: 1200px) {
@@ -11467,8 +11960,8 @@ article div p {
   footer .dropdown {
     display: none; }
   .footerNav h1 {
-    padding: 0px;
-    margin: 0px; }
+    margin: 0px;
+    padding: 0px; }
   .footerNav .contactos {
     padding: 0px; }
   .footerNav ul {
@@ -11534,6 +12027,9 @@ article div p {
 
 /* MEDIA QUERY MOBILE */
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .reset-m-p-media, .logo-main, .welcomeContainer {
+    margin: 0px;
+    padding: 0px; }
   header {
     padding-top: 10px; }
     header nav ul {
@@ -11545,17 +12041,14 @@ article div p {
     padding: 10px 5px; }
   .logo-main {
     height: 50px;
-    margin: 0px;
-    padding: 0px;
     padding-left: 10px; }
   .navMedia {
     padding-right: 10px; }
     .navMedia img {
       height: 25px; }
   /* WELCOME SECTION */
-  .welcomeContainer {
-    padding: 0px;
-    margin: 0px; }
+  .welcomeContainer .bg {
+    padding-bottom: 50px; }
   .divText__h1--boxmod {
     margin-top: 20px;
     margin-left: -20px;
@@ -11570,6 +12063,7 @@ article div p {
   .divText__p--margin {
     margin-left: -30px;
     margin-right: 10px;
+    margin-top: 30px;
     font-size: 18px; }
   .divText__p--font {
     font-size: 18px; }

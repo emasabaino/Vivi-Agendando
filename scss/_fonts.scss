@@ -14,6 +14,12 @@ a {
     text-decoration: none;
 }
 
+@mixin font-style($family, $align, $weight) {
+    font-family: $family;
+    text-align: $align;
+    font-weight: $weight;
+}
+
 
 /* HEADER */
 
@@ -23,11 +29,7 @@ a {
 .menuHamburg {
     .pos-f-t li {
         list-style: none;
-        text-align: center;
-        font: {
-            family: $source;
-            weight: bold;
-        }
+        @include font-style($source, center, bold);
     }
 }
 
@@ -36,11 +38,7 @@ a {
 
 header nav ul li{
     list-style: none;
-    font: {
-        family: $roboto;
-        weight: bold;
-    }
-    text-align: center;
+    @include font-style($roboto, center, bold);
     text-decoration: none;
 }
 
@@ -67,19 +65,14 @@ header nav ul li a:hover {
   
   
   .divText__p--font{
-    font: {
-        family: $source;
-        weight: bold;
-    }
+    @include font-style($source, left, bold);
   }
   
   /* FORM INDEX */
 
 .formIndex__p--font {
-    font: {
-        family: $source;
-        weight: bold;
-    }
+    @include font-style($source, left, bold);
+    
 }
 
 
@@ -92,10 +85,7 @@ form label {
 }
 
 .submit {
-    font: {
-        family: $roboto;
-        weight: bold;
-    }
+    @include font-style($roboto, center, bold);
 }
 
 /* footer */
@@ -186,10 +176,8 @@ article div {
 /* NAV MODELOS */
 
 .containerNav nav {
-    text-align: center;
     list-style: none;
-    font-family: $roboto;
-    font-weight: bold;
+    @include font-style($roboto, center, bold);
     li a {
         text-decoration: none;
     }
@@ -267,8 +255,7 @@ article div {
     }
 
     .button404 {
-        text-align: center;
-        font-weight: bold;
+        @include font-style($roboto, center, bold);
         text-decoration: none;
     }
 

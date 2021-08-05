@@ -14,18 +14,25 @@
 
 /* MENU DESKTOP */
 
+@mixin hover-scale($scale, $transition) {
+    transform:scale($scale);
+    transition: $transition; 
+}
+
 .navMedia li:hover{
-    transform:scale(1.2);
-    transition: 1s; 
+    @include hover-scale(1.2, 1s);
 }
 
 
 header nav ul li{
     border-radius: 10px;
     &:hover {
-        transition: all 1s;
-        transform: scale(1.2);
+        @include hover-scale(1.2, 1s);
     }
+}
+
+.logo-main:hover {
+    @include hover-scale(1.2, 1s);
 }
 
 /* WELCOME INDEX */
@@ -67,6 +74,9 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* footer */
 
+.flexFooterSocial img:hover {
+    @include hover-scale(1.1, 1s);
+}
 
 .footerNav ul li:hover{
     transition: 0.5s;
@@ -74,8 +84,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* ABOUT US */  
 
-.backgroundAboutUs {
-    opacity: 0.5;
+.containerAboutUsText {
+    overflow: hidden;
 }
 
 
@@ -98,8 +108,7 @@ input[type=number]::-webkit-outer-spin-button {
 .navModelos li {
     border-radius: 10px;
     &:hover {
-        transition: all 1s;
-        transform: scale(1.1);
+        @include hover-scale(1.1, 1s);
     }
     a:hover {
         transition: 1s;
@@ -113,20 +122,17 @@ input[type=number]::-webkit-outer-spin-button {
 /* MAIN MODELOS */
 
 .imgModelos:hover {
-    transform: scale(1.5);
-    transition: all 1s;
+    @include hover-scale(1.5, 1s);
 }
 
 .containerImgModelos div img:hover {
-    transform: scale(1.2);
-    transition: all 1s;
+    @include hover-scale(1.2, 1s);
 }
 
 /*ENCUADERNADOS*/
 
 .imgEncuadernados:hover {
-    transform: scale(1.2);
-    transition: 1s;
+    @include hover-scale(1.2, 1s);
 }
 
 

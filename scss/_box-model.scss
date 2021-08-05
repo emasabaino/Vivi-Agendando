@@ -6,6 +6,16 @@
     padding: 0;
 }
 
+@mixin flex-d($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+.reset-m-p {
+    margin: 0px;
+    padding: 0px;
+}
+
 
 /* HEADER */
 
@@ -21,8 +31,7 @@ header {
 /* MENU HAMBURGUESA */
 
 .menuHamburg {
-    display: flex;
-    flex-direction: row;
+    @include flex-d(row);
     justify-content: space-between;
     margin-bottom: 5px;
     .pos-f-t li {
@@ -32,8 +41,7 @@ header {
 }
 
 header .navbar {
-    padding: 0px;
-    margin: 0px;
+    @extend .reset-m-p;
 }
 
 
@@ -45,8 +53,7 @@ header .navbar {
 
 .navMedia {
     order: 3;
-    display: flex;
-    flex-direction: row;
+    @include flex-d(row);
 }
 
 .logo-main {
@@ -62,8 +69,7 @@ header .navbar {
 }
 
 header nav ul {
-    display: flex;
-    flex-direction: row;
+    @include flex-d(row);
     li {
         padding: 10px;
         margin: 0px 10px;
@@ -71,30 +77,29 @@ header nav ul {
 }
 
 .div-pink {
-    margin: 0px;
-    padding: 0px;
+    @extend .reset-m-p;
 }
 
 /* WELCOME INDEX */
 
+.welcomeContainer .bg {
+    
+        background-image: url("../assets/images/background-agenda.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0px 0px 100px 50px;
+    
+}
 
 .welcomeContainer__artWelcomeIndex--flex {
-    display: flex;
-    flex-direction: column
-  }
-  
-  .divBackImg__img--boxmod {
-    position: relative;
-  }
-  
-  .artWelcomeIndex__divText--boxmod{
-    margin-left: 50px;
-    position: absolute;
+    @include flex-d(column);
   }
   
   .divText__h1--boxmod {
     margin-top: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 70px;
   }
   
   .divText__h2--margin{
@@ -102,7 +107,7 @@ header nav ul {
   }
   
   .divText__p--margin{
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 40px;
   }
   
@@ -167,8 +172,7 @@ footer {
 
 .flexFooterSocial {
     position: relative;
-    display: flex;
-    flex-direction: row;
+    @include flex-d(row);
 }
 
 
@@ -201,8 +205,7 @@ footer {
 
 
 .containerAboutUsText {
-    display: flex;
-    flex-direction: column;
+    @include flex-d(column);
     justify-content: space-between;
     margin-right: 0px;
 
@@ -282,8 +285,7 @@ footer {
 /* NAV MODELOS */
 
 .containerNav {
-    display: flex;
-    flex-direction: column;
+    @include flex-d(column);
     nav {
         margin-top: 5px;
         li {
@@ -321,8 +323,7 @@ footer {
 
 
 .flexList {
-    display: flex;
-    flex-direction: row;
+    @include flex-d(row);
     padding-left: 20px;
 }
 
@@ -375,8 +376,7 @@ footer {
 }
 
 .artRedes__redesGroup--boxmodel {
-    display: flex;
-    flex-direction: row;
+    @include flex-d(row);
     justify-content: center;
     padding-top: 35px;
 }
@@ -406,8 +406,7 @@ footer {
 
 #contact form {
     margin: 30px;
-    display: flex;
-    flex-direction: column;
+    @include flex-d(column);
     justify-content: space-evenly;
     fieldset div {
         margin-top: 20px;

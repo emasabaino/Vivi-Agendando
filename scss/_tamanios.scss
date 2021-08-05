@@ -1,25 +1,19 @@
-/* VAR RESPONSIVE */
-
-$mindesk: 1200px;
-$mintab: 768px;
-$minmob: 0px;
-$maxtab: 1199px;
-$maxmob: 767px;
 
 $p-desk: 20px;
 $li-desk: 18px;
 
 $size-p: 20px;
+$icon-desktop: 40px;
 
 /* MENU HAMBURGUESA */ 
 
 .menuHamburg .pos-f-t li {
-    font-size: 18px;
+    font-size: $li-desk;
 }
 
 .navbar-toggler-icon {
-    width: 40px;
-    height: 40px;
+    width: $icon-desktop;
+    height: $icon-desktop;
     padding-left: 15px;
 }
 
@@ -31,7 +25,7 @@ $size-p: 20px;
 }
 
 .social-icon {
-    height: 40px;
+    height: $icon-desktop;
 }
 
 .div-pink {
@@ -199,7 +193,7 @@ article div {
 
 
 .listText {
-    font-size: 18px;
+    font-size: $li-desk;
 }
 
 .imgModelos {
