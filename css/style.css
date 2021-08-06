@@ -9428,6 +9428,9 @@ input[type=number]::-webkit-outer-spin-button {
 #accordion .card-header {
   border-radius: 10px; }
 
+.carrouselCustom {
+  overflow: hidden !important; }
+
 /* NAV MODELOS */
 .navModelos li {
   border-radius: 10px; }
