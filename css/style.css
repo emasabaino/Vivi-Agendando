@@ -99,7 +99,7 @@ footer .footer__h3--colors {
   color: #b1488c; }
 
 .containerAboutUsText h6 {
-  color: #b1488c; }
+  color: #f880c6; }
 
 article div h3 {
   color: #d4939e; }
@@ -2059,7 +2059,7 @@ footer .footer__h3--colors {
   color: #b1488c; }
 
 .containerAboutUsText h6 {
-  color: #b1488c; }
+  color: #f880c6; }
 
 article div h3 {
   color: #d4939e; }
@@ -7971,7 +7971,7 @@ footer .footer__h3--colors {
   color: #b1488c; }
 
 .containerAboutUsText h6 {
-  color: #b1488c; }
+  color: #f880c6; }
 
 article div h3 {
   color: #d4939e; }
@@ -8635,8 +8635,9 @@ footer .dropdown {
   justify-content: center;
   padding-top: 35px; }
 
-.qrCode {
-  padding: 30px 15px 0px 15px; }
+.redesGroup__divRedes {
+  padding-right: 25px;
+  padding-left: 25px; }
 
 /* MAIN SECTION CONTACTO  */
 .contactanosDiv h1 {
@@ -8967,7 +8968,7 @@ footer .footer__h3--colors {
   color: #b1488c; }
 
 .containerAboutUsText h6 {
-  color: #b1488c; }
+  color: #f880c6; }
 
 article div h3 {
   color: #d4939e; }
@@ -9501,8 +9502,9 @@ footer .dropdown {
   justify-content: center;
   padding-top: 35px; }
 
-.qrCode {
-  padding: 30px 15px 0px 15px; }
+.redesGroup__divRedes {
+  padding-right: 25px;
+  padding-left: 25px; }
 
 /* MAIN SECTION CONTACTO  */
 .contactanosDiv h1 {
@@ -9818,12 +9820,12 @@ legend {
   .artRedes__h1--font {
     font-size: 30px; }
   .divRedes__img--size {
-    height: 50px;
-    padding-left: 10px; }
+    height: 50px; }
   .artRedes__redesGroup--boxmodel {
     padding-top: 25px; }
-  .qrCode {
-    display: none; }
+  .redesGroup__divRedes {
+    padding-left: 15px;
+    padding-right: 15px; }
   .contactanosDiv h1 {
     font-size: 25px;
     padding: 10px; }
