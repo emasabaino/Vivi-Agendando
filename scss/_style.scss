@@ -4,3 +4,45 @@
 @import '_tamanios.scss';
 @import '_box-model.scss';
 @import '_responsive.scss';
+
+.modal-header {
+    background-color: $backrosaclaro;
+    color: $rosalogo;
+}
+
+.close {
+    color: $rosaviejo1;
+    opacity: 0.8;
+    &:hover {
+        opacity: 1;
+        color: $rosalogo;
+        transition: all 1s;
+    }
+}
+
+.buttonModal {
+    display: inline-block;
+    background-color: $backrosaclaro;
+    color: $rosaviejo2;
+    height: 50px; 
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    &:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+        color: $rosalogo;
+    }
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+.modal-header {
+    border-bottom: solid 2px pink;
+}

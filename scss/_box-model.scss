@@ -282,18 +282,7 @@ footer {
 
 /* NAV MODELOS */
 
-.containerNav {
-    @include flex-d(column);
-    nav {
-        margin-top: 5px;
-        li {
-            position: relative;
-            display: inline-block;
-            padding: 20px;
-            margin: 10px 10px;
-        }
-    }
-    img {
+    #white-diary {
         display: block;
         position: relative;
         top: -30px;
@@ -301,6 +290,10 @@ footer {
         margin-bottom: -30px;
         padding-bottom: 10px;
     }
+
+.navModelos {
+    display: flex;
+    justify-content: center;
 }
 
 

@@ -172,14 +172,6 @@ article div {
 
 /* NAV MODELOS */
 
-.containerNav nav {
-    list-style: none;
-    @include font-style($roboto, center, bold);
-    li a {
-        text-decoration: none;
-    }
-}
-
 
 /* MAIN MODELOS */
 
