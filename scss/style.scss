@@ -7,7 +7,7 @@
 
 .modal-header {
     background-color: $backrosaclaro;
-    color: $rosalogo;
+    color: $rosaviejo2;
 }
 
 .close {
@@ -18,6 +18,10 @@
         color: $rosalogo;
         transition: all 1s;
     }
+}
+
+.modal-body {
+    background-color: rgb(250, 236, 246);
 }
 
 .buttonModal {

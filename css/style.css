@@ -859,6 +859,9 @@ footer .dropdown {
 .listText {
   padding-left: 15px; }
 
+.listText li {
+  padding-top: 10px; }
+
 .imgModelos {
   padding-left: 60px; }
 
@@ -1702,6 +1705,9 @@ footer .dropdown {
 .listText {
   padding-left: 15px; }
 
+.listText li {
+  padding-top: 10px; }
+
 .imgModelos {
   padding-left: 60px; }
 
@@ -2012,6 +2018,8 @@ legend {
     font-size: 15px;
     width: 90%; }
   /* MODELOS */
+  .modal-dialog {
+    max-width: 100% !important; }
   .containerModelos .row {
     padding: 10px 20px; }
   .containerModelos h1 {
@@ -2105,7 +2113,7 @@ legend {
 
 .modal-header {
   background-color: #f5e2e2;
-  color: #f880c6; }
+  color: #e7acb6; }
 
 .close {
   color: #d4939e;
@@ -2114,6 +2122,9 @@ legend {
     opacity: 1;
     color: #f880c6;
     transition: all 1s; }
+
+.modal-body {
+  background-color: #faecf6; }
 
 .buttonModal {
   display: inline-block;

@@ -415,6 +415,10 @@ input[type="checkbox"] {
 
 /* MODELOS */
 
+.modal-dialog {
+    max-width: 100% !important;
+}
+
 .containerModelos {
     .row {
         padding: 10px 20px;
