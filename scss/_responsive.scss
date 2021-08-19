@@ -434,7 +434,7 @@ input[type="checkbox"] {
     p {
         font-size: 15px;
         text-align: center;
-        padding-top: 10px;
+        padding: 10px 0px 0px 0px;
     }
 }
 
@@ -446,9 +446,13 @@ input[type="checkbox"] {
     font-size: 12px;
 }
 
+.modal-dialog {
+    width: 100%;
+  }
+
 .containerImgModelos div img {
     padding-bottom: 15px;
-    padding-left: 15px;
+    padding-left: 0px;
     padding-right: 0px;
 }
 
@@ -469,7 +473,6 @@ input[type="checkbox"] {
 .card-body {
     padding-top: 0px;
 }
-
 
 .imgEncuadernados {
     height: unset;
