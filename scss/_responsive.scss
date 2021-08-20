@@ -64,7 +64,7 @@ $maxmob: 767px;
     .footerNav {
         h1 {
             margin: 0px;
-            padding: 0px;
+            padding: 0px 0px 15px 0px;
         }
 
         .contactos {
@@ -346,6 +346,12 @@ input[type="checkbox"] {
 
     .dropdown-menu {
         transition: all 0.5s;
+        padding: 10px 30px 10px 20px;
+        padding-left: 30px;
+        padding-right: 20px;
+        border: 2px solid pink;
+        outline: none;
+        border-radius: 10px;
     }
 
     .container-fluid__legals--boxmodel {
@@ -443,7 +449,7 @@ input[type="checkbox"] {
 }
 
 .listText {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .modal-dialog {
@@ -490,7 +496,6 @@ iframe {
 .artRedes__h1--font {
     font-size: 30px;
 }
-
 
 .divRedes__img--size {
     height: 50px;

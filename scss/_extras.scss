@@ -133,9 +133,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* SECCION REDES */
 
-.qrCode:hover {
-    transform: scale(3) translateY(-30px);
-    transition: 1s;
+.redesGroup__divRedes:hover {
+    @include hover-scale(1.2, 1s);
 }
 
 /* MAIN SECTION CONTACTO  */

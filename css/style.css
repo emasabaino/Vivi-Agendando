@@ -298,6 +298,8 @@ article div p {
     color: #b1488c; }
   .containerModelos p {
     color: #756e6e; }
+  .containerModelos span {
+    color: #b1488c; }
 
 .listText {
   color: #756e6e; }
@@ -450,8 +452,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* CONTACTO */
 /* SECCION REDES */
-.qrCode:hover {
-  transform: scale(3) translateY(-30px);
+.redesGroup__divRedes:hover {
+  transform: scale(1.2);
   transition: 1s; }
 
 /* MAIN SECTION CONTACTO  */
@@ -849,8 +851,7 @@ footer .dropdown {
   margin-top: 30px; }
 
 .containerModelos p {
-  padding-top: 15px;
-  text-align: center; }
+  padding-top: 15px; }
 
 .flexList {
   display: flex;
@@ -1272,6 +1273,8 @@ article div p {
     color: #b1488c; }
   .containerModelos p {
     color: #756e6e; }
+  .containerModelos span {
+    color: #b1488c; }
 
 .listText {
   color: #756e6e; }
@@ -1696,8 +1699,7 @@ footer .dropdown {
   margin-top: 30px; }
 
 .containerModelos p {
-  padding-top: 15px;
-  text-align: center; }
+  padding-top: 15px; }
 
 .flexList {
   display: flex;
@@ -1833,7 +1835,7 @@ legend {
     display: none; }
   .footerNav h1 {
     margin: 0px;
-    padding: 0px; }
+    padding: 0px 0px 15px 0px; }
   .footerNav .contactos {
     padding: 0px; }
   .footerNav ul {
@@ -1980,7 +1982,13 @@ legend {
     background-color: pink;
     border: none; }
   .dropdown-menu {
-    transition: all 0.5s; }
+    transition: all 0.5s;
+    padding: 10px 30px 10px 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border: 2px solid pink;
+    outline: none;
+    border-radius: 10px; }
   .container-fluid__legals--boxmodel {
     margin: 5px 0px;
     justify-content: center; }
@@ -2037,7 +2045,7 @@ legend {
   .flexList {
     padding-left: 0px; }
   .listText {
-    font-size: 12px; }
+    font-size: 14px; }
   .modal-dialog {
     width: 100%; }
   .containerImgModelos div img {
@@ -2117,7 +2125,8 @@ legend {
 
 .modal-header {
   background-color: #f5e2e2;
-  color: #e7acb6; }
+  color: #e7acb6;
+  padding-left: 40px; }
 
 .close {
   color: #d4939e;
@@ -2136,6 +2145,7 @@ legend {
   color: #e7acb6;
   height: 50px;
   margin: 10px;
+  margin-top: 20px;
   border-radius: 10px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
@@ -2145,6 +2155,9 @@ legend {
     transform: scale(1.1);
     transition: all 1s;
     color: #f880c6; }
+  .buttonModal a {
+    color: unset;
+    text-decoration: none; }
 
 .btn:focus, .btn:active {
   outline: none !important;

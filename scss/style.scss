@@ -8,6 +8,7 @@
 .modal-header {
     background-color: $backrosaclaro;
     color: $rosaviejo2;
+    padding-left: 40px;
 }
 
 .close {
@@ -30,6 +31,7 @@
     color: $rosaviejo2;
     height: 50px; 
     margin: 10px;
+    margin-top: 20px;
     border-radius: 10px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
@@ -40,7 +42,12 @@
         transition: all 1s;
         color: $rosalogo;
     }
+    a {
+        color: unset;
+        text-decoration: none;
+    }
 }
+
 
 .btn:focus, .btn:active {
     outline: none !important;
