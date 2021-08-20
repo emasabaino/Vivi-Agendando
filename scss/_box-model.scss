@@ -263,6 +263,27 @@ footer {
 
 /* MODELOS */
 
+.backModelos {
+    display: block;
+}
+
+/* MODAL */ 
+
+.modal-header {
+    padding-left: 40px;
+}
+
+.buttonModal {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
 /* CAROUSEL */
 
@@ -294,6 +315,7 @@ footer {
 .navModelos {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 

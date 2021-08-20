@@ -90,6 +90,41 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* MODELOS */
 
+.backModelos {
+    background-image: url("../../../carousel-1.jpg");
+}
+
+/* MODALS */ 
+
+.modal-header {
+    border-bottom: solid 2px pink;
+}
+
+.close {
+    &:hover {
+        opacity: 1;
+        color: $rosalogo;
+        transition: all 1s;
+    }
+}
+
+.buttonModal {
+    border: solid 1px $rosaviejo2;
+    border-radius: 10px;
+    &:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+        color: $rosalogo;
+    }
+}
+
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+
 /* ACCORDION */
 
 #accordion {

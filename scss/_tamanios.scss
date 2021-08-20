@@ -152,8 +152,23 @@ article div {
 
 /* MODELOS */
 
+/* MODALS */
+
+.buttonModal {
+    height: 50px; 
+    font-size: 15px;
+}
+
+.modal-dialog {
+    width: 100%;
+  }
+
 
 /* CAROUSEL */
+
+.backModelos {
+    width: 100%;
+}
 
 .carrouselCustom img {
     max-height: 300px;

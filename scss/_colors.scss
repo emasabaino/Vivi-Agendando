@@ -185,6 +185,34 @@ article div {
 
 /* MODELOS */
 
+.backModelosText {
+    color: $rosaviejo1;
+    background-color: hsla(0%, 50%, 100%, .7)
+}
+
+/* MODALS */
+
+.modal-header {
+    background-color: $backrosaclaro;
+    color: $rosaviejo2;
+}
+
+button .close {
+    color: $rosaviejo1;
+    opacity: 0.8;
+}
+
+.modal-body {
+    background-color: rgb(250, 236, 246);
+}
+
+.buttonModal {
+    background-color: $backrosaclaro;
+    color: $rosaviejo2;
+    a {
+        color: unset;
+    }
+}
 
 /* CAROUSEL */
 
@@ -210,11 +238,6 @@ article div {
         background-color: white;
     }
 }
-
-
-/* NAV MODELOS */
-
-
 
 /* MAIN MODELOS */
 

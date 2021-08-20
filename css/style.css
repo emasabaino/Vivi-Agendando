@@ -102,6 +102,18 @@ article div p {
   text-transform: uppercase; }
 
 /* MODELOS */
+.backModelosText {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+/* MODALS */
+.buttonModal {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+  .buttonModal a {
+    text-decoration: none; }
+
 /* ACCORDION */
 #accordion .btn-link {
   text-decoration: none;
@@ -120,6 +132,9 @@ article div p {
 
 .containerModelos p {
   font-family: "Source Sans Pro", sans-serif; }
+
+.containerModelos span {
+  font-weight: bold; }
 
 .listText {
   font-family: "Roboto", sans-serif; }
@@ -269,6 +284,28 @@ article div p {
   background-color: #f5e2e2; }
 
 /* MODELOS */
+.backModelosText {
+  color: #d4939e;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+/* MODALS */
+.modal-header {
+  background-color: #f5e2e2;
+  color: #e7acb6; }
+
+button .close {
+  color: #d4939e;
+  opacity: 0.8; }
+
+.modal-body {
+  background-color: #faecf6; }
+
+.buttonModal {
+  background-color: #f5e2e2;
+  color: #e7acb6; }
+  .buttonModal a {
+    color: unset; }
+
 /* CAROUSEL */
 .carrouselCustom {
   background-color: #f5e2e2; }
@@ -286,7 +323,6 @@ article div p {
   border: solid 1px #f5e2e2;
   background-color: white; }
 
-/* NAV MODELOS */
 /* MAIN MODELOS */
 .containerModelos {
   background-color: #f5e2e2; }
@@ -422,6 +458,30 @@ input[type=number]::-webkit-outer-spin-button {
   overflow: hidden; }
 
 /* MODELOS */
+.backModelos {
+  background-image: url("../../../carousel-1.jpg"); }
+
+/* MODALS */
+.modal-header {
+  border-bottom: solid 2px pink; }
+
+.close:hover {
+  opacity: 1;
+  color: #f880c6;
+  transition: all 1s; }
+
+.buttonModal {
+  border: solid 1px #e7acb6;
+  border-radius: 10px; }
+  .buttonModal:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+    color: #f880c6; }
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important; }
+
 /* ACCORDION */
 #accordion .card {
   border-radius: 10px; }
@@ -564,7 +624,18 @@ article div p {
   height: 60px; }
 
 /* MODELOS */
+/* MODALS */
+.buttonModal {
+  height: 50px;
+  font-size: 15px; }
+
+.modal-dialog {
+  width: 100%; }
+
 /* CAROUSEL */
+.backModelos {
+  width: 100%; }
+
 .carrouselCustom img {
   max-height: 300px;
   max-width: 550px; }
@@ -819,6 +890,23 @@ footer .dropdown {
     grid-area: descripcion-how; }
 
 /* MODELOS */
+.backModelos {
+  display: block; }
+
+/* MODAL */
+.modal-header {
+  padding-left: 40px; }
+
+.buttonModal {
+  display: inline-block;
+  margin: 10px;
+  margin-top: 20px; }
+
+.modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto; }
+
 /* CAROUSEL */
 .carrouselCustom img {
   padding: 3px; }
@@ -840,7 +928,8 @@ footer .dropdown {
 
 .navModelos {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 10px; }
 
 /* MAIN MODELOS */
 .containerModelos .row {
@@ -1051,7 +1140,18 @@ article div p {
   height: 60px; }
 
 /* MODELOS */
+/* MODALS */
+.buttonModal {
+  height: 50px;
+  font-size: 15px; }
+
+.modal-dialog {
+  width: 100%; }
+
 /* CAROUSEL */
+.backModelos {
+  width: 100%; }
+
 .carrouselCustom img {
   max-height: 300px;
   max-width: 550px; }
@@ -1244,6 +1344,28 @@ article div p {
   background-color: #f5e2e2; }
 
 /* MODELOS */
+.backModelosText {
+  color: #d4939e;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+/* MODALS */
+.modal-header {
+  background-color: #f5e2e2;
+  color: #e7acb6; }
+
+button .close {
+  color: #d4939e;
+  opacity: 0.8; }
+
+.modal-body {
+  background-color: #faecf6; }
+
+.buttonModal {
+  background-color: #f5e2e2;
+  color: #e7acb6; }
+  .buttonModal a {
+    color: unset; }
+
 /* CAROUSEL */
 .carrouselCustom {
   background-color: #f5e2e2; }
@@ -1261,7 +1383,6 @@ article div p {
   border: solid 1px #f5e2e2;
   background-color: white; }
 
-/* NAV MODELOS */
 /* MAIN MODELOS */
 .containerModelos {
   background-color: #f5e2e2; }
@@ -1438,6 +1559,18 @@ article div p {
   text-transform: uppercase; }
 
 /* MODELOS */
+.backModelosText {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+/* MODALS */
+.buttonModal {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; }
+  .buttonModal a {
+    text-decoration: none; }
+
 /* ACCORDION */
 #accordion .btn-link {
   text-decoration: none;
@@ -1456,6 +1589,9 @@ article div p {
 
 .containerModelos p {
   font-family: "Source Sans Pro", sans-serif; }
+
+.containerModelos span {
+  font-weight: bold; }
 
 .listText {
   font-family: "Roboto", sans-serif; }
@@ -1667,6 +1803,23 @@ footer .dropdown {
     grid-area: descripcion-how; }
 
 /* MODELOS */
+.backModelos {
+  display: block; }
+
+/* MODAL */
+.modal-header {
+  padding-left: 40px; }
+
+.buttonModal {
+  display: inline-block;
+  margin: 10px;
+  margin-top: 20px; }
+
+.modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto; }
+
 /* CAROUSEL */
 .carrouselCustom img {
   padding: 3px; }
@@ -1688,7 +1841,8 @@ footer .dropdown {
 
 .navModelos {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 10px; }
 
 /* MAIN MODELOS */
 .containerModelos .row {
@@ -2122,52 +2276,3 @@ legend {
     text-align: center; }
   .container404 .button404 {
     font-size: 20px; } }
-
-.modal-header {
-  background-color: #f5e2e2;
-  color: #e7acb6;
-  padding-left: 40px; }
-
-.close {
-  color: #d4939e;
-  opacity: 0.8; }
-  .close:hover {
-    opacity: 1;
-    color: #f880c6;
-    transition: all 1s; }
-
-.modal-body {
-  background-color: #faecf6; }
-
-.buttonModal {
-  display: inline-block;
-  background-color: #f5e2e2;
-  color: #e7acb6;
-  height: 50px;
-  margin: 10px;
-  margin-top: 20px;
-  border-radius: 10px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  text-align: center; }
-  .buttonModal:hover {
-    transform: scale(1.1);
-    transition: all 1s;
-    color: #f880c6; }
-  .buttonModal a {
-    color: unset;
-    text-decoration: none; }
-
-.btn:focus, .btn:active {
-  outline: none !important;
-  box-shadow: none !important; }
-
-.modal-header {
-  border-bottom: solid 2px pink; }
-
-.modal-dialog {
-  margin: 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%; }

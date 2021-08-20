@@ -161,6 +161,21 @@ article div {
 
 /* MODELOS */
 
+.backModelosText {
+    font-weight: bold;
+    background-color: hsla(0%, 50%, 100%, .7)
+}
+
+/* MODALS */
+
+.buttonModal {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+}
 
 /* ACCORDION */
 
@@ -187,6 +202,9 @@ article div {
     }
     p {
         font-family: $source;
+    }
+    span {
+        font-weight: bold;
     }
 }
 
