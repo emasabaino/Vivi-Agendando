@@ -67,6 +67,12 @@ header nav ul li a:hover {
   
   /* FORM INDEX */
 
+.formIndex h4 {
+    font-family: $roboto;
+    font-weight: bold;
+    text-align: center;
+}
+
 .formIndex__p--font {
     @include font-style($source, left, bold);
     
@@ -232,6 +238,14 @@ article div {
     }
     p {
         font-family: $source;
+    }
+}
+
+.contactoLi {
+    font-family: $source;
+    li {
+    list-style: none;
+    font-family: $source;
     }
 }
 

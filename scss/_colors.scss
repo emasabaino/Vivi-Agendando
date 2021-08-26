@@ -72,6 +72,18 @@ header nav ul li a:hover {
 
   /* FORM INDEX */
 
+.formIndex h4 {
+    color: $rosalogo;
+    background-color: white;
+    a {
+        text-decoration: none;
+        transition: 1s;
+        &:hover {
+            color: $violetatitulos;
+        }
+    }
+}
+
 .formIndex {
     background-color:$backrosaclaro;
     .formIndex__p--font {
@@ -296,6 +308,18 @@ button .close {
     }
     p {
         color: $gris;
+    }
+}
+
+.contactoLi {
+    h3 {
+        color: $violetatitulos;        
+    }
+    li {
+        color: $gris;
+        span {
+            color: $rosalogo;
+        }
     }
 }
 

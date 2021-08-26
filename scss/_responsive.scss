@@ -47,10 +47,14 @@ $maxmob: 767px;
     .divText__p--margin {
         margin-left: 0px;
     }
+    
+    .formIndex h4{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
 
-    .formIndex__img--boxmodel {
-        position: relative;
-        left: 20px;
+    .wppIndex {
+        height: 100px;
     }
 
     .formIndex .submit {
@@ -278,15 +282,32 @@ input[type="checkbox"] {
     /*CONTACT*/
 
     
-    .formIndex {
-        padding-left: 0px;
 
+
+    .formIndex {
+        padding: 20px;
+        .formIndex__p--boxmodel {
+            padding-top: 20px;
+            padding-bottom: 0px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
         .formIndex__img--boxmodel {
             display: none;
         }
         .submit {
             left: 0px;
+        }
+        .wppIndex {
+            height: 50px;
+            margin: auto;
+            display: block;
+            padding-left: 0px;
         }    
+        h4 {
+            font-size: 25px;
+            text-align: center;
+        }
     }
 
     .inputIndex {
@@ -518,7 +539,23 @@ iframe {
     p {
         font-size: 18px;
         width: 100%;
+        padding: 20px;
     }
+}
+
+.contactoLi {
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+    h3 {
+        font-size: 25px;
+        text-align: center !important;
+    }
+    li {
+        font-size: 20px;
+    }
+    
+    
 }
 
 legend {

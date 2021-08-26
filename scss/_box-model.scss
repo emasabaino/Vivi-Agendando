@@ -111,13 +111,27 @@ header nav ul {
   
   /* FORM INDEX */
 
+.wppIndex {
+    height: 150px;
+    padding-left: 50px;
+}
+
+.formIndex h4 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid $rosalogo;
+    border-radius: 10px;
+}
+
+
 .formIndex {
 
+    align-items: center;
     padding-left: 50px;
 
     .formIndex__p--boxmodel {
         padding: {
-            top: 20px;
+            top: 50px;
             bottom: 20px;
         }
     }
@@ -413,10 +427,21 @@ footer {
     }
     p {
         margin-top: 40px;
-        margin-bottom: -15px;
-        padding-left: 30px;
+        padding-left: 50px;
     }
 }
+
+.contactoLi {
+    padding-left: 120px;
+    h3 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    li {
+    padding-bottom: 50px;
+    }
+}
+
 
 
 /* FORM CONTACT */

@@ -55,7 +55,7 @@ header nav ul li{
 /* FORM INDEX */
 
 .formIndex__p--font {
-    font-size: $p-desk;
+    font-size: 25px;
 }
 
 
@@ -250,6 +250,16 @@ article div {
         width: 80%;
     }
 }
+
+.contactoLi {
+    h3 {
+        font-size: 30px;
+    }
+    li {
+    font-size: 25px;
+    }
+}
+
 
 
 /* FORM CONTACT */

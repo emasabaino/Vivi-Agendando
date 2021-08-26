@@ -46,6 +46,9 @@ header nav ul li{
   
   /* FORM INDEX */
 
+.animate__pulse {
+    animation-iteration-count: infinite;
+}
 
 .formIndex__img--scalex {
     transform: scaleX(-1);
