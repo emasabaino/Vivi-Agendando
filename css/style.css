@@ -162,7 +162,8 @@ article div p {
   font-family: "Source Sans Pro", sans-serif; }
   .contactoLi li {
     list-style: none;
-    font-family: "Source Sans Pro", sans-serif; }
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold; }
 
 /* FORM CONTACT */
 .cierreContact__h1--font {
@@ -1697,7 +1698,8 @@ article div p {
   font-family: "Source Sans Pro", sans-serif; }
   .contactoLi li {
     list-style: none;
-    font-family: "Source Sans Pro", sans-serif; }
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold; }
 
 /* FORM CONTACT */
 .cierreContact__h1--font {
